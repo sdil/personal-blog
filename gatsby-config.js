@@ -4,8 +4,24 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    navigation: [
+    siteTitle: `Fadhil`,
+    siteTitleAlt: `Fadhil Blog`,
+    siteHeadline: `Fadhil Blog`,
+    siteDescription: `Sharing my devops thoughts`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@sdil`,
+    externalLinks: [
+      {
+        name: `Twitter`,
+        url: `https://twitter.com/sdil`,
+      },
+      {
+        name: `Instagram`,
+        url: `https://www.instagram.com/fadhilyaacob/`,
+      },
+    ],
+  navigation: [
       {
         title: `Blog`,
         slug: `/blog`,
@@ -54,5 +70,9 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-typescript`,
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-theme-ui`,
   ],
 }
