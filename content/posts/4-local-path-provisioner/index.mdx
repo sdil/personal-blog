@@ -1,6 +1,6 @@
 ---
 title: How Rancher's Local Path Provisioner works
-date: 2019-12-12
+date: 2019-12-13
 tags:
   - Kubernetes
   - Storage
@@ -18,7 +18,7 @@ For the past month, I've been researching for baremetal k8s distribution to use 
 - How to use Rancher's Local Path Provisioner
 - How dynamic storage **external-provisioner** works
 
-Frankly speaking, I personally find it abit hard for me to get more information about this kind of stuff, unless I work on Kubernetes project or storage-related system company. Otherwise, I have to dig around this kind of projects and examine them by myself. I am sharing this to help people like to me to get started to know more about Kubernetes storage and *external-provisioner* specifically.
+Frankly speaking, I personally find it abit hard for me to get more information about this kind of stuff, unless I work on Kubernetes project itself or storage-related system company. Otherwise, I have to dig around this kind of projects and examine them by myself. I am sharing this to help people like to me to get started to know more about Kubernetes storage and *external-provisioner* specifically.
 
 ### How Kubernetes Dynamic Storage Provisioning work
 I recommend you to read a [documentation](https://cloud.ibm.com/docs/containers?topic=containers-kube_concepts) from IBM to know in detail how storage works in Kubernetes. 
@@ -57,13 +57,11 @@ $ kubectl apply -f https://raw.githubusercontent.com/rancher/local-path-provisio
 
 Step 2: Prepare a PVC
 ```
-# Create a PVC
 $ kubectl create -f https://raw.githubusercontent.com/rancher/local-path-provisioner/master/examples/pvc.yaml
 ```
 
 Step 3: Create a `volume-test` pod
 ```
-# Create the volume-test pod
 $ kubectl create -f https://raw.githubusercontent.com/rancher/local-path-provisioner/master/examples/pod.yaml
 ```
 Step 4: Check for the PV being created for you
@@ -142,8 +140,9 @@ ERROR: logging before flag.Parse: I1213 08:44:18.132018       1 controller.go:10
 ERROR: logging before flag.Parse: I1213 08:44:18.132069       1 controller.go:1089] provision "default/local-path-pvc" class "local-path": succeeded
 ERROR: logging before flag.Parse: I1213 08:44:18.132427       1 event.go:221] Event(v1.ObjectReference{Kind:"PersistentVolumeClaim", Namespace:"default", Name:"local-path-pvc", UID:"d82e480f-2929-4717-a275-3d892ab63d4d", APIVersion:"v1", ResourceVersion:"713", FieldPath:""}): type: 'Normal' reason: 'ProvisioningSucceeded' Successfully provisioned volume pvc-d82e480f-2929-4717-a275-3d892ab63d4d
 ```
+We can see that line 7, the local-path daemon received a request of PVC. That is where the daemon do its job. The rest of the lines are self-explanatory.
 
-Lets inspect the event stream
+Lets inspect the Kubernetes event stream
 ```
 $ kubectl get events
 LAST SEEN   TYPE      REASON                    OBJECT                                 MESSAGE
@@ -159,6 +158,11 @@ LAST SEEN   TYPE      REASON                    OBJECT                          
 7m58s       Normal    Created                   pod/volume-test                        Created container volume-test
 7m57s       Normal    Started                   pod/volume-test                        Started container volume-test``
 ```
+
+There is nothing much in the Kubernetes event stream. It's just that you could see how see the process of how the PV is being scheduled, successfully created and bounded.
+
+### How the PV get deleted?
+I leave it to you to discover yourself. Hint: It's kinda reverse of what we've seen here. Hit me up on [Twitter](https://twitter.com/sdil) if you need more clue :D
 
 -----
 
