@@ -30,7 +30,7 @@ Even though Ingress is used to expose service to outside, Ingress is built for L
 
 ## Advantages & Disadvantages of External IP
 The advantage of using External IP are:
-- You have full control towards the IP that you announce.
+- You have full control towards the IP that you use. The IP will be may belongs to your ASN instead of cloud provider's ASN.
 
 The disadvantage of External IP are:
 - The simple setup that we will go thru right now is **NOT** highly available. That means if the node dies, the service is no longer reachable and you'll need to manually remediate the issue.
@@ -40,16 +40,11 @@ The disadvantage of External IP are:
 ### Our setup
 Again, we will use the same diagram as our reference for our cluster setup, except with different IP and different hostname. This is not a good real life example, but it's easy to distinguish which is which when we're verifying the setup. In real life example, you might want to expose MySQL DB on 1 external IP and Kafka cluster on another external IP.
 
+![enter image description here](kubernete-external-ip-demo.png)
+
+I have provisioned 2 VMs for this tutorial. `k3s-external-ip-master` will be our Kubernetes master node and has IP of 1.2.4.120. `k3s-external-ip-worker` will be Kubernetes worker and has IP of 1.2.4.114.
+
 ### Step 1: Setup Kubernetes cluster
-We will setup a 2 nodes Kubernetes cluster using Rancher's k3s. It will take 5 minutes to have this running. We will setup the cluster using k3sup.
-
-I have provisioned 2 VMs for this demo on Onapp cloud.
-![IP list on maste rnode](ip-master.png)
-
-![enter image description here](ip-worker.png)
-
-*\* Note that most cloud providers does not allow your VM to have more than 1 IP attached to your VM. Onapp cloud allows this.*
-
 Lets install k3s on the master node and let another node to join the cluster.
 ```
 $ k3sup install --ip <master node ip> --user <username>
@@ -134,6 +129,8 @@ httpd-service   ClusterIP   10.43.240.149   1.2.4.120     80/TCP    32s
 nginx-service   ClusterIP   10.43.13.149    1.2.4.114     80/TCP    26s
 ```
 
+You might see the service type is ClusterIP here. I am not sure why it does not says External IP instead.
+
 ### Step 4: Voila!
 Lets curl the httpd service and you should see the Apache default page response.
 ```
@@ -171,16 +168,16 @@ Accept-Ranges: bytes
 ```
 
 ## What's next
-### HA Proxy & Keepalived
-Im not really sure if this works. I will do a POC later and write another blog post on this. Conceptually this is how it looks like.
+### Floating IP dedicated for the service
+Most cloud providers nowadays offer Floating IP service. Floating IP allows you to have 1 IP and assign that IP dynamically to any IP that you want. In this case, the IP can be assigned to any worker node in the Kubernetes cluster.
 
-![Haproxy setup](haproxy.png)
+In DigitalOcean (I believe other providers also allow this), you can reassign the IP to other VM using API call. This means that you can quickly reassign the IP to other VM proactively when they're down, or maybe rotate the IP periodically. 
 
-[https://www.digitalocean.com/community/tutorials/how-to-set-up-highly-available-haproxy-servers-with-keepalived-and-floating-ips-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-set-up-highly-available-haproxy-servers-with-keepalived-and-floating-ips-on-ubuntu-14-04)
+![Floating IP setup](kubernetes-floating-ip.png)
 
-Note that Digital Ocean doesn't supports Floating IP for worker nodes in its Kubernetes platform. Refer [here](https://www.digitalocean.com/docs/networking/floating-ips/).
+From the diagram, we can have 1 Floating IP 1.2.3.6 that is first assigned to Node 1 and will be switched to Node 2 when Node 1 become unavailable. IP 1.2.3.6 is meant for our MySQL service and will be put in our application configurations.
 
-You can also use Cloud Load Balancer available out there and set the target IP to the on-prem worker nodes. You can get Cloud Load Balancer from Linode, DigitalOcean, etc.
+I have not try this setup yet so I can't confirm it works. I will update the result in future blog post.
 
 ### Anycast IP
 ![Anycast setup](anycast.png)
