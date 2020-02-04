@@ -109,7 +109,7 @@ It’s important to set the  `Content-Type: application/json`  so that the clien
 
 Simple enough, right? Let’s see what we’ve got so far.
 
-![Healthz endpoint](1-healtz.gif)
+![Healthz endpoint](https://github.com/sdil/personal-blog/blob/master/content/posts/7-create-todolist-in-golang/1-healtz.gif?raw=true)
 
 Great! Our first endpoint is now live!
 
@@ -208,7 +208,7 @@ In lines 7 to 11, we are defining the TodoItem model as what we described earlie
 
 In lines 19 and 20, we are running Auto-migration against our MySQL database immediately after starting our API server. See it in action here:
 
-![enter image description here](3-db.gif)
+![enter image description here](https://github.com/sdil/personal-blog/blob/master/content/posts/7-create-todolist-in-golang/3-db.gif?raw=true)
 
 Yeay our database is ready!
 
@@ -255,7 +255,7 @@ On line 16, we obtain the value from POST operation with  `r.FormValue("paramete
 
 Inline 32, we register the new route  `/todo`  with  **HTTP POST**  request into our new  `CreateItem()`  function.
 
-![Create item endpoint](4-create.gif)
+![Create item endpoint](https://raw.githubusercontent.com/sdil/personal-blog/master/content/posts/7-create-todolist-in-golang/4-create.gif)
 
 ## Step 5: Continue with the rest of CRUD operations
 
@@ -377,7 +377,10 @@ In order to connect the API server to the frontend page, we need to give the COR
 
 To do so, you’ll need to install the go  `cors`  package
 
+```
 $ go get -u github.com/rs/cors
+```
+
 
 Add these lines to your Go code:
 ```
@@ -437,7 +440,7 @@ $ ./todolist-mysql-go
 
 # Voila!! A little end-to-end demonstration
 
-![End to end demonstration](8-finish.gif)
+![End to end demonstration](https://github.com/sdil/personal-blog/blob/master/content/posts/7-create-todolist-in-golang/8-finish.gif?raw=true)
 
 Congratulations, you’ve built yourself a Todolist in Golang!!
 
