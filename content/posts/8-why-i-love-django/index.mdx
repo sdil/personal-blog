@@ -6,10 +6,11 @@ tags:
   - API Server
 ---
 
-
-I am amazed by how easy to build a web app using Django
 For the past three months, I've been writing a web application using Django for our company's new project. It hasn't launched yet, so I couldn't disclose too much information about it. However, I've learned a ton while working on this project while working on it along with the team.
+
 Previously, I have been working with Flask, Cherrypy, and Bottle to build a small and simple web app for a particular need. I was shocked after a few weeks of writing the web app in Django. Before writing my first line of Django code, I read this excellent ebook written by Andrew Pinkham
+
+[![Advanced Web Development in Python with Django](https://learning.oreilly.com/covers/9780136552949/800w/)](https://learning.oreilly.com/videos/advanced-web-development/9780136552949)
 
 If you are new to Python or Django web programming, I recommend you to start with a book or tutorial that explains its fundamental first to get the idea.
 
@@ -17,11 +18,16 @@ If you are new to Python or Django web programming, I recommend you to start wit
 
 ### Reason 1: Big Corps are Betting on Them
 Before we discuss the cool things about Django, let's see who is betting on the framework. Numerous organizations use Django in their stack. Most notably mentions are Instagram, Mozilla, Pinterest, and NASA. Instagram has been using Django since day one because it allows them to evolve quickly. I understand that the framework is giving some pains after years of their exponential growth, but Django is the one that will enable them to scale that big, that fast.
+
 Watch the video below to know how Django is being used at Instagram.
+
+[![Django @ Instagram](https://img.youtube.com/vi/lx5WQjXLlq8/0.jpg)](https://www.youtube.com/watch?v=lx5WQjXLlq8)
 
 ### Reason 2: Rapid Prototyping/Development
 Writing a Web app using Django is as easy as ABC. Django makes it really easy takes an extremely little effort to build a web app from scratch. Compared to minimal frameworks like Flask, you would need to write database migration scripts, page routing, user authentication, serializer, etc.. In Django, everything is taken care of for you.
+
 Honestly, I would probably take 1–2 weeks if I were to write a complete and fully tested user management module alone from scratch in Flask with user registration, user login, social logins, password reset, email activation, password encryption, and role-based access control (RBAC). That would sum up thousands of lines of code. In Django, it would take less than 1 day using its scaffold django startapptool.
+
 Writing a model, views, and templates are also super easy. Let's say you are creating a new poll module for your web app, all you need to start a new app, define its model, write the views and template. And lastly, register the app in the config file. Voila!
 
 Other benefits of using Django related to Day 1 operations includes:
@@ -47,6 +53,7 @@ If you are a freelancer that hunts and works on various projects at a rapid pace
 ### Reason 3: Day 2 Operations is a Peace of Mind
 
 Building a web app is just 20% of the job. Maintaining the web app for the next 5 years is another 80% of the job. That includes extending its features, server & database migrations, ensuring the service uptime, data cleaning, server scaling, etc. All those processes are easy in Django, as long as you design your system right.
+
 Django has an extremely helpful community. This is really important for your project's longevity. Django was first released in the year 2005 and 15 years later, the community keeps growing day by day and showing no sign of slowing down. More people and big corps are relying on this project means it will stay here for many more years ahead. A vibrant developer community means:
 
 - **Plenty of StackOverflow questions**
@@ -69,7 +76,9 @@ Django has an extremely helpful community. This is really important for your pro
 
 ## When to use Django
 
-Web-Queue-Worker architecture style. Courtesy of MicrosoftAs a rule of thumb, if you're developing a monolithic Web-Queue-Worker architecture project, you should at least give Django a try. Microsoft has explained in depth about the Web-Queue-Worker architecture on this documentation page.
+[![Web Queue Worker architecture](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/images/web-queue-worker-logical.svg)
+
+Web-Queue-Worker architecture style. Courtesy of MicrosoftAs a rule of thumb, if you're developing a monolithic Web-Queue-Worker architecture project, you should at least give Django a try. Microsoft has explained in depth about the Web-Queue-Worker architecture on this [documentation page](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/web-queue-worker).
 
 The monolithic Web-Queue-Worker architecture is a very common web architecture. This architecture is suitable for many use cases. Personally, I will be using Django if I were to start a project that:
 
@@ -119,4 +128,5 @@ This is my personal opinion. There's always a tradeoff for any web frameworks.
 ## Conclusion
 
 I've been using Django for only two months. All I've seen right now is the bright sides of Django. Maybe after a year, I will discover more Django drawbacks and pitfalls and also solutions to it, I am more than happy to share my experience here again. 
+
 I know that Django has many more things to offer that I haven't explored yet: Django Channels, In-memory caching, Celery task, Django REST, Asynchronous support, etc. I also need to learn more about Django's best practices in order to optimize my application. Learning is a never-ending process.
