@@ -24,7 +24,7 @@ So far I really enjoyed the course. It really opens my eyes on how to use and ho
 
 ### Kubernetes
 
-I have been researching and evaluating Kubernetes for a few weeks at my company. I have stumbled upon many interesting concepts in Kubernetes. I have spent time researching about multi-tenancy, multi-cluster & storage on baremetal server. I have evaluated several Kubernetes distributions and I find [k3s](k3s.io) (with [k3sup](http://k3sup.dev)) is the best and easiest to get started.
+I have been researching and evaluating Kubernetes for a few weeks at my company. I have stumbled upon many interesting concepts in Kubernetes. I have spent time researching about multi-tenancy, multi-cluster & storage on baremetal server. I have evaluated several Kubernetes distributions and I find [k3s](https://k3s.io) (with [k3sup](https://k3sup.dev)) is the best and easiest to get started.
 
 Here are things I would love to try on Kubernetes:
 
