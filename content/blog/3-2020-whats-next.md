@@ -20,7 +20,7 @@ This is my top priority for now. I have been studying AWS SysOps Associate certi
 
 So far I really enjoyed the course. It really opens my eyes on how to use and how to administer them. I am now at 81% of the course progress. I will be doing some revisions before actually register for the exam.
 
-![A Cloud Guru course progress](/blog/3-acloudguru.png)
+![A Cloud Guru course progress](/blog/3/acloudguru.png)
 
 ### Kubernetes
 
