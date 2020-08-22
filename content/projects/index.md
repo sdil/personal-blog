@@ -26,4 +26,4 @@ Visit the project [here](https://yafig.netlify.app). See the source code [here](
 
 **Objective**: Learning to build **production-ready REST API** using Django REST Framework (monolith) by building a simple Instagram clone, in public.
 
-**Technologies Used**: Django, Django REST Framework, PostgreSQL, Docker, Elasticsearch, RabbitMQ, AWS S3, Netlify, NuxtJS.
+**Technologies Used**: Django, Django REST Framework, PostgreSQL, Docker, Elasticsearch, Redis, Celery, Sentry, AWS S3, Netlify, NuxtJS.
