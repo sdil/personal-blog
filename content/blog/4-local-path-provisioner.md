@@ -1,7 +1,7 @@
 ---
 title: "How Rancher's Local Path Provisioner works"
 date: 2019-12-13
-slug: "2020-whats-next"
+slug: "rancher-local-path-provisioner"
 description: "How local path provisioner works"
 keywords: ["Kubernetes", "Storage"]
 draft: false
