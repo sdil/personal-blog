@@ -1,3 +1,11 @@
+---
+title: "fun life"
+description: "life fun!"
+date: 2020-08-22
+keywords: []
+draft: false
+---
+
 # Fun things I do outside work
 
 ## Travelling with LOML
