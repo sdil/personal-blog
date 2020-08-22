@@ -5,7 +5,7 @@ slug: "kubernetes-external-ip"
 description: "Kubernetes External IP service type"
 keywords: ["Kubernetes", "Network"]
 draft: false
-tags: ["Kubernetes", "Network"]
+tags: ["Kubernetes", "Network", "Devops"]
 math: false
 toc: true
 ---
@@ -14,7 +14,8 @@ When building a baremetal Kubernetes cluster, you might face a common problem  a
 
 Personally, I find that this topic not widely discussed among Kubernetes community, probably because many are using cloud providers' Load Balancer or use Metal LB for on-prem deployments.
 
-## What is External IP Service 
+## What is External IP Service
+
 From [official Kubernetes](https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types) documentation, this is how External IP is described
 > If there are external IPs that route to one or more cluster nodes, Kubernetes Services can be exposed on those  `externalIPs`. Traffic that ingresses into the cluster with the external IP (as destination IP), on the Service port, will be routed to one of the Service endpoints.  `externalIPs`  are not managed by Kubernetes and are the responsibility of the cluster administrator.
 
@@ -28,9 +29,11 @@ This is how they're illustrated
 In the diagram above, both Node 1 and Node 2 has 1 IP address. The IP address 1.2.3.4 on Node 1 is bind to httpd service where the actual pod reside in Node 2 and the IP address 1.2.3.6 is bind to nginx service in that the actual pod reside in Node 1. The underlying Overlay network makes this possible. When we curl IP address 1.2.3.4, we should see response from httpd service while curl 1.2.3.5, we should response from nginx service.
 
 ## Why not use Ingress?
+
 Even though Ingress is used to expose service to outside, Ingress is built for L7 routing. This means it built to support HTTP (port 80) and/or HTTPS (port 443) traffic and not for other ports. Ingress works as host based routing or similar to virtual host in Web Server world. Some ingress controllers able to serve other ports or may provides workaround for L4 routing but I have never actually experiment with them.
 
 ## Advantages & Disadvantages of External IP
+
 The advantage of using External IP are:
 - You have full control towards the IP that you use. You can use IP that belongs to your ASN instead of cloud provider's ASN.
 
@@ -39,6 +42,7 @@ The disadvantage of External IP are:
 - There are some manual work needs to be done to manage the IPs. The IPs are not dynamically provisioned for you thus it require manual human intervention.
 
 ## How to use External IP service
+
 ### Our setup
 Again, we will use the same diagram as our reference for our cluster setup, except with different IP and different hostname. This is not a good real life example, but it's easy to distinguish which is which when we're verifying the setup. In real life example, you might want to expose MySQL DB on 1 external IP and Kafka cluster on another external IP.
 

@@ -10,6 +10,8 @@ Visit the project [here]((https://vote.fadhil-blog.dev)). See the source code [h
 
 ## Yet Another Free Instagram Clone (YAFIG)
 
+![YAFIG](yafig.png)
+
 Visit the project [here]((https://yafig.fadhil-blog.dev)). See the source code [here](https://github.com/yafig/api-server-monolith).
 
 **Objective**: Learning to build production-ready REST API using Django REST Framework (monolith) by building a simple Instagram clone, in public.

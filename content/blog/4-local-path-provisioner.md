@@ -5,7 +5,7 @@ slug: "2020-whats-next"
 description: "How local path provisioner works"
 keywords: ["Kubernetes", "Storage"]
 draft: false
-tags: ["Kubernetes", "Storage"]
+tags: ["Kubernetes", "Storage", "Devops"]
 math: false
 toc: true
 ---

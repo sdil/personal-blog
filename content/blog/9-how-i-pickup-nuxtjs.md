@@ -5,10 +5,12 @@ slug: "relearn-js"
 description: "My journey to relearn JavaScript after so many years and how you can start too"
 keywords: ["VueJS", "NuxtJS", "Frontend", "Programming"]
 draft: false
-tags: ["VueJS", "NuxtJS", "Frontend", "Programming"]
+tags: ["VueJS", "Frontend", "Programming"]
 math: false
 toc: true
 ---
+
+![YAFIG](/blog/9/yafig.png)
 
 The picture above shows you what I’ve built after learning Vue.js and Nuxt.js in one week.
 

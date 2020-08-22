@@ -5,21 +5,9 @@ My name is Fadhil Yaacob (pronounce [Fa-dale](https://www.howtopronounce.com/fad
 
 During my free time, I enjoy shredding my guitar. You can see some videos in my [Youtube channel](https://www.youtube.com/user/piukul/).
 
-## Timeline
-
-| Year | Cool things happened |
-|------|----------------------|
-| 1995 | Born in a small city in Kelantan, Malaysia |
-| 2010 | Self-taught Ruby on Rails in high school |
-| 2016 | Intern at OnApp KL, building CDN |
-| 2017 | Intern at Malaysia Airlines, building document management system |
-|      | Graduated from University of Malaya in Computer Science majoring in Management Information System |
-| 2018 | Work at OnApp KL, making CDN more awesome |
-| 2020 | ;) |
-
 ## Skills
 
-I have been working with in **Content Delivery Network (CDN)** industry for 3 years and have been coding professionally in **Python** during that period. Along the way, I have been working many technologies.
+I have been working with in **Content Delivery Network (CDN)** industry for 3+ years and have been coding professionally in **Python** during that period. Along the way, I have been working many technologies.
 
 ### Web Development
 

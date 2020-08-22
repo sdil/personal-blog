@@ -5,7 +5,7 @@ slug: "2020-whats-next"
 description: "This is an example post for hugo-theme-codex."
 keywords: ["Devops", "Resolution"]
 draft: false
-tags: ["Devops"]
+tags: ["Career", "Devops"]
 math: false
 toc: true
 ---
