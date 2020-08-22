@@ -4,7 +4,7 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "/home/sdil"
 languageCode = "en-us"
-baseURL = "https://musing-hermann-721ff7.netlify.app/"
+baseURL = "https://fadhil-blog.dev/"
 copyright = "© Fadhil Yaacob {year}"
 
 # Add your Disqus shortname here.
