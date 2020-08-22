@@ -1,7 +1,11 @@
 # Fun things I do outside work
 
-## Guitar
+## Travelling with LOML
 
-## Cooking
+### Redang July 2020
 
-## Places I've been to
+![Laguna Beach Resort](/fun/redang-1.jpg)
+
+### Jeju Oct 2019
+
+![Jeju Park](/fun/jeju1.jpg)

@@ -1,3 +1,11 @@
+---
+title: "about"
+description: "about me"
+date: 2020-08-22
+keywords: []
+draft: false
+---
+
 
 # Hi there!
 
@@ -7,7 +15,7 @@ During my free time, I enjoy shredding my guitar. You can see some videos in my 
 
 ## Skills
 
-I have been working with in **Content Delivery Network (CDN)** industry for 3+ years and have been coding professionally in **Python** during that period. I have a deep understanding of how CDN worksAlong the way, I have been working many technologies.
+I have been working with in **Content Delivery Network (CDN)** industry for 3+ years and have been coding professionally in **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge. Along the way, I have been working many technologies.
 
 ### Web Development
 
@@ -16,7 +24,7 @@ I have experience in developing:
 - Monolithic web services using [Django <3](/tags/django/) and Java Spring (legacy system) in production
 - Microservices using Flask and [Golang Echo](/tags/golang/) (non-production)
 - Function as a Service (FaaS) system using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront
-- Web frontend [VueJS & NuxtJS](/tags/vue-js/), jQuery, Bulma & Bootstrap CSS Framework
+- Web frontend [VueJS & NuxtJS](/tags/vuejs/), jQuery, Bulma & Bootstrap CSS Framework
 
 ### Infrastructure
 
