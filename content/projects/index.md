@@ -1,3 +1,7 @@
+# Projects
+
+These are list of weekend projects I did for fun and learning.
+
 ## Voting Serveless
 
 ![voting serverless](voting-serverless.png)
