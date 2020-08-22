@@ -1,9 +1,13 @@
 ---
-title: How I Envision My Future In the Next 10 Years as a 25 Years Old Software Engineer
+title: "How I Envision My Future In the Next 10 Years as a 25 Years Old Software Engineer"
 date: 2020-06-18
-tags:
-  - Career
-  - Programming
+slug: "envision-career"
+description: "How I Envision My Future In the Next 10 Years as a 25 Years Old Software Engineer"
+keywords: ["Career", "Programming"]
+draft: false
+tags: ["Career", "Programming"]
+math: false
+toc: true
 ---
 
 ![Planning my future be like…](https://miro.medium.com/max/400/0*iPLlmK_5JCe-jwtY)
@@ -20,7 +24,7 @@ Nevertheless, it is essential first to understand **what kind of person you are*
 
 Fail fast, fail often, fail forward , fail alot — Will Smith
 
-### My Background
+## My Background
 
 I am a risk-averse person. I value my good night’s sleep more than anything else. I’m not willing to trade my night sleep with worrying about the economic downturns, political change, etc..
 
@@ -28,17 +32,17 @@ Our main limiting factor in life is time. **I am very selective when it comes to
 
 Fail fast, fail often, fail forward , fail alot — Will Smith
 
-### What’s my Jam
+## What’s my Jam
 
 **These are the areas that I’m passionate about**: Web development (Frontend, API Server, and Backend programming), DevOps, Monitoring, Automation, Distributed Computing, System Administration, Design Patterns, Mentoring, Project Lead
 
 **What is NOT my jam**: Data Science, Artificial Intelligence, Cryptocurrency, Blockchain, Mobile App Development, Game Development, Data Science, Low-Level Programming, Online Marketing
 
-### My Future Software Engineer Career Paths
+## My Future Software Engineer Career Paths
 
 These are the career paths that I’m looking forward to being in the future.
 
-#### Principal/Distinguished Engineers
+### Principal/Distinguished Engineers
 
 They envision the company they work for and the entire computing ecosystem. They are charismatic and have excellent leadership and mentoring skills. They author remarkable books and papers that revolutionize the industry for years (or decades). Most of them are in their 40s or 50s today and have 15 to 20 years of experience in the industry before reaching here.
 
@@ -46,7 +50,7 @@ Ultimately, I want to be here in 10 to 20 years from now. I love working with ch
 
 Inspirations: Kelsey Hightower, Martin Fowler, Uncle Bob, Chris Richardson, Werner Vogels, Dan Kohn, Jeff Dean, Linus Torvalds, James Hamilton
 
-#### Awesome Engineers
+### Awesome Engineers
 
 They’re just great engineers. They frequently appear in conferences — most of them working at fancy FANG companies and living in metropolitan cities. Millions of users are impacted by the work they do on the Internet. They also maintain several popular open-source projects. They are relatively young compared to Principal Engineers listed above and have 5 to 10 years of experience in the industry.
 
@@ -54,7 +58,7 @@ I admire these people a lot. Their contributions to the community are significan
 
 Inspirations: Ahmet Balkan, Alex Ellis, Caitie McCaffrey, Kent C. Dodds, Dan Abramov, Daniel Feldroy, Jeremy Daly, Mitchell Hashimoto, Jaana Dogan
 
-#### Bootstrapper/IndieHacker
+### Bootstrapper/IndieHacker
 
 They start their own company, stay small & profitable. They don’t favor investors! Other than programming, they are also good at various things like marketing (e.g., SEO), accounting, financial planning, risk management, product design, and, most importantly, enjoying themselves!
 
@@ -62,7 +66,7 @@ I love the idea of having and operating my own small, low-maintenance low-risk o
 
 Inspirations: Peter Levels, Tigran Hakobyan, Daniel Vassallo, David Heinemeier Hansson, Jordan O’Connor, Mattias Geniar, Andrey Azimov
 
-#### Celebrity/Influencer
+### Celebrity/Influencer
 
 They are famous figures, like Kim K, for developers. Other than working as SWE, they are actively sharing their thoughts on social media. They are the trendsetter among the developer community. Being a celebrity gives them advantages in what they do every day because they have a vast audience.
 
@@ -70,7 +74,7 @@ I’m working on building a bigger audience for my Twitter account(@sdil). It wo
 
 Inspirations: Emma Bostian, Mayuko, Daniel Vassallo, Patrick Syu, Shawn Wang, Danny Thompson
 
-#### Content Creator: Youtuber/Podcaster/Author/Blogger
+### Content Creator: Youtuber/Podcaster/Author/Blogger
 
 Other than working as SWE, they also produce video, audio, or writing content. Some of them earn extra income by selling content online or publish on publishing platforms (e.g., Youtube and Medium) for advertising commissions. Most of them are also celebrities/influencers.
 
@@ -80,7 +84,7 @@ Inspirations: Ahmet Balkan, Emma Bostian, Daniel Vassallo, Mayuko, Patric Syu, S
 
 *Disclaimer*: All the descriptions are my personal views. I do not have any experience of being in one of those titles.
 
-### Game Plan
+## Game Plan
 
 These are actions I should be doing to achieve what I listed above:
 
@@ -90,7 +94,7 @@ These are actions I should be doing to achieve what I listed above:
 - **Talk to more people from around the world**, get better socially, and be a pleasant person. To be honest, English is not my mother tongue language, and I’m not really fluent at this; I have to work hard to improve.
 - **Participate and give a talk at conferences**
 
-### Conclusions
+## Conclusions
 
 I have made my game plan; I must execute it as planned. Just never stop growing!
 

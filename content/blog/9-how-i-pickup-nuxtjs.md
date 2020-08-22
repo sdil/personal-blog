@@ -1,11 +1,13 @@
 ---
-title: My journey to relearn JavaScript after so many years and how you can start too
+title: "I am relearning JS"
 date: 2020-04-21
-tags:
-  - VueJS
-  - NuxtJS
-  - Frontend
-  - Javascript
+slug: "relearn-js"
+description: "My journey to relearn JavaScript after so many years and how you can start too"
+keywords: ["VueJS", "NuxtJS", "Frontend", "Programming"]
+draft: false
+tags: ["VueJS", "NuxtJS", "Frontend", "Programming"]
+math: false
+toc: true
 ---
 
 The picture above shows you what I’ve built after learning Vue.js and Nuxt.js in one week.

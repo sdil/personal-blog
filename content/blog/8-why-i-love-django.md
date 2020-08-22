@@ -1,9 +1,13 @@
 ---
-title: Why I Love Django After Building a Web App for 3 Months 
+title: "Why I Love Django After Building a Web App for 3 Months"
 date: 2020-04-21
-tags:
-  - Django
-  - API Server
+slug: "love-django"
+description: "Why I Love Django After Building a Web App for 3 Months"
+keywords: ["Django", "Programming", "Python"]
+draft: false
+tags: ["Django", "Programming", "Python"]
+math: false
+toc: true
 ---
 
 For the past three months, I've been writing a web application using Django for our company's new project. It hasn't launched yet, so I couldn't disclose too much information about it. However, I've learned a ton while working on this project while working on it along with the team.
@@ -76,7 +80,7 @@ Django has an extremely helpful community. This is really important for your pro
 
 ## When to use Django
 
-[![Web Queue Worker architecture](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/images/web-queue-worker-logical.svg)
+![Web Queue Worker architecture](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/images/web-queue-worker-logical.svg)
 
 Web-Queue-Worker architecture style. Courtesy of MicrosoftAs a rule of thumb, if you're developing a monolithic Web-Queue-Worker architecture project, you should at least give Django a try. Microsoft has explained in depth about the Web-Queue-Worker architecture on this [documentation page](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/web-queue-worker).
 

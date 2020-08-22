@@ -1,13 +1,14 @@
 ---
-title: Build a Todolist API Server in Golang
+title: "Build a Todolist API Server in Golang"
 date: 2020-02-03
-tags:
-  - Golang
-  - Programming
-  - Tutorial
-  - API Server
+slug: "golang-todolist"
+description: "Build a Todolist API Server in Golang"
+keywords: ["Golang", "Programming"]
+draft: false
+tags: ["Golang", "Programming"]
+math: false
+toc: true
 ---
-
 
 I always wanted to learn Golang for a long time. According to the StackOverflow survey, Golang is the  **3rd most wanted programming language**  in the year 2019. Coming from a Python background, learning a new programming language like Golang gives me a unique perspective on how to write code. I was inspired by a [helpful tutorial post](https://keiran.scot/building-a-todo-api-with-golang-and-kubernetes-part-1-introduction/) by Keiran Scot. The following tutorial is heavily influenced by Keiran’s tutorial but made to use MySQL instead of Mongo as part of my exercise to learn Golang.
 
@@ -109,7 +110,7 @@ It’s important to set the  `Content-Type: application/json`  so that the clien
 
 Simple enough, right? Let’s see what we’ve got so far.
 
-![Healthz endpoint](https://github.com/sdil/personal-blog/blob/master/content/posts/7-create-todolist-in-golang/1-healtz.gif?raw=true){:height="50%" width="50%"}
+![Healthz endpoint](/blog/7/1-healthz.gif){:height="50%" width="50%"}
 
 Great! Our first endpoint is now live!
 
@@ -208,7 +209,7 @@ In lines 7 to 11, we are defining the TodoItem model as what we described earlie
 
 In lines 19 and 20, we are running Auto-migration against our MySQL database immediately after starting our API server. See it in action here:
 
-![Auto migrations](https://github.com/sdil/personal-blog/blob/master/content/posts/7-create-todolist-in-golang/3-db.gif?raw=true){:height="50%" width="50%"}
+![Auto migrations](/blog/7/3-db.gif){:height="50%" width="50%"}
 
 Yeay our database is ready!
 
@@ -255,7 +256,7 @@ On line 16, we obtain the value from POST operation with  `r.FormValue("paramete
 
 Inline 32, we register the new route  `/todo`  with  **HTTP POST**  request into our new  `CreateItem()`  function.
 
-![Create item endpoint](https://raw.githubusercontent.com/sdil/personal-blog/master/content/posts/7-create-todolist-in-golang/4-create.gif){:height="50%" width="50%"}
+![Create item endpoint](/blog/7/4-create.gif)
 
 ## Step 5: Continue with the rest of CRUD operations
 
@@ -438,14 +439,14 @@ $ go build
 $ ./todolist-mysql-go
 ```
 
-# Voila!! A little end-to-end demonstration
+## Voila!! A little end-to-end demonstration
 
-![End to end demonstration](https://github.com/sdil/personal-blog/blob/master/content/posts/7-create-todolist-in-golang/8-finish.gif?raw=true){:height="25%" width="25%"}
+![End to end demonstration](/blog/7/8-finish.gif)
 
 Congratulations, you’ve built yourself a Todolist in Golang!!
 
 You can find the full source code in my Github repository. If you’re stuck at any point in this tutorial, feel free to refer [there](https://github.com/sdil/learning/blob/master/go/todolist-mysql-go/todolist.go)
 
-# Don’t Stop Learning!
+## Don’t Stop Learning!
 
 This is an, in fact, a tiny part of Golang. There are many more things that you can explore next in Golang. You’ll have more reason to love Golang. I hope this tutorial inspired you to go explore more :D

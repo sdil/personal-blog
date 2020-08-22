@@ -1,20 +1,17 @@
-# REMOVE THIS
-# themesDir = "../../" 
-
 # DO NOT REMOVE THIS
 theme = "hugo-theme-codex" 
 
 # Override these settings with your own
-title = "codex"
+title = "/home/sdil"
 languageCode = "en-us"
 baseURL = "https://musing-hermann-721ff7.netlify.app/"
-copyright = "© {year}"
+copyright = "© Fadhil Yaacob {year}"
 
 # Add your Disqus shortname here.
 # disqusShortname = ""
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
-# googleAnalytics = "" 
+# googleAnalytics = ""
 
 # Optional params
 [params]
@@ -25,7 +22,7 @@ copyright = "© {year}"
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   twitter = "https://twitter.com/sdil"
   github = "https://github.com/sdil"
-  # email = "mailto:<your email>"
+  email = "mailto:fadhilyaacob95@gmail.com"
   # facebook = "https://facebook.com/<your handle>"
   # gitlab = "https://gitlab.com/<your handle>"
   # instagram = "https://instagram.com/<your handle>"
@@ -35,7 +32,7 @@ copyright = "© {year}"
   # Titles for your icons (shown as tooltips), and also their display order.
   # Currently, these icons are supported: 
   #   "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
-  iconOrder = ["Twitter", "GitHub", "LinkedIn"]
+  iconOrder = ["Email", "Twitter", "GitHub", "LinkedIn"]
 
   # Metadata for Twitter cards, defaults to params.twitter
   twitterSite = "@sdil"
@@ -58,9 +55,9 @@ copyright = "© {year}"
 
 # Controls the navigation
 [[menu.main]]
-  identifier = "about"
-  name = "about"
-  title = "About"
+  identifier = "home"
+  name = "home"
+  title = "Home"
   url = "/"
 
 [[menu.main]]
@@ -70,13 +67,13 @@ copyright = "© {year}"
   url = "/blog"
 
 [[menu.main]]
-  identifier = "project"
-  name = "project"
-  title = "Project"
-  url = "/project"
+  identifier = "projects"
+  name = "projects"
+  title = "Projects"
+  url = "/projects"
 
 [[menu.main]]
-  identifier = "skills"
-  name = "skills"
-  title = "Skills"
-  url = "/skills"
+  identifier = "about"
+  name = "about"
+  title = "about"
+  url = "/about"

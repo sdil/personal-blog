@@ -1,9 +1,13 @@
 ---
-title: An Introduction to Message Queues With RabbitMQ and Python 
+title: "An Introduction to Message Queues With RabbitMQ and Python"
 date: 2020-02-21
-tags:
-  - Python
-  - Message Queue
+slug: "intro-rabbitmq"
+description: "An Introduction to Message Queues With RabbitMQ and Python"
+keywords: ["Python", "Programming", "Message Queue"]
+draft: false
+tags: ["Python", "Programming", "Message Queue"]
+math: false
+toc: true
 ---
 
 ## What Is a Message Queue in the First Place?
@@ -24,6 +28,7 @@ Here is the ideal scenario is: You press the “Sign up” button, you are redir
 ---
 
 ## Understanding Message Queues With an Analogy
+
 When I first dealt with message queues and had no idea what they were, my ex-team manager, Sian Lerk, used this brilliant analogy to explain the concept to me. Imagine that you’re sending a letter to your mother via the local postal service. Here’s what you’ll do:
 
 1. Write the letter.
@@ -61,7 +66,7 @@ RabbitMQ is an open-source message broker developed by Pivotal Software that off
 
 There many alternatives to RabbitMQ available on the market. Open-source solutions include ActiveMQ, ZeroMQ, Redis, NATS, and KubeMQ. There are also managed message queue solutions offered by major cloud providers: A managed AWS MQ service as well as proprietary queue solutions like AWS SQS and GCP Pub/Sub.
 
-### When is this useful?
+### When is this useful
 
 The benefits of message queues are as follows:
 
@@ -69,7 +74,7 @@ The benefits of message queues are as follows:
 - The data can be persisted if the consumer is unavailable at the moment. This is important so that you do not lose any data and state change during downtime. Let’s say your consumer worker is having downtime and the message is not consumed. The RabbitMQ server will keep the message until it is consumed or it reaches its maximum queue length.
 - The system is distributed. Your system has no single point of failure (SPOF) and is able to scale up and down depending on its load. However, it’s super important to keep the RabbitMQ server healthy. Otherwise, you might lose the data and state change.
 
-### Wait, what about Apache Kafka?
+### Wait, what about Apache Kafka
 
 I personally have little experience with Apache Kafka compared to RabbitMQ. From my knowledge, the most significant differences between Kafka and RabbitMQ are:
 
@@ -87,18 +92,21 @@ Nevertheless, both Kafka and RabbitMQ are built to solve different problems. You
 
 Docker is the fastest way to get your hands dirty with new software. Here’s the command to get RabbitMQ 3 with Management UI running and ports 5672 and 15672 exposed:
 
-```
+```shell
 $ docker run -d --hostname my-rabbit -p 15672:15672 -p 5672:5672 --name rabbit-server -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management
 ```
 
 Now open in your browser `localhost:15672`. The username is user and the password is password.
 
 ### Create Exchange and Queue
+
 Let’s create an exchange:
+
 - Name: my_exchange
 - Type: default
 
 Next, let’s create a queue and queue binding:
+
 - Name: my_app
 - Type: Classic
 - Binding: From: my_exchange, Routing Key: test
@@ -113,7 +121,7 @@ Let’s check if our exchange and queue are actually working. We’ll be publish
 
 It’s always recommended to create a new Python environment every time you start working on a new project. I am using Python 3.7.3 throughout this tutorial.
 
-```
+```shell
 # Create our working directory
 $ mkdir rabbitmq-python
 $ cd rabbitmq-python
@@ -129,7 +137,7 @@ $ pip install pika
 
 Save the following code as producer.py in your directory.
 
-```
+```python
 # producer.py
 # This script will publish MQ message to my_exchange MQ exchange
 
@@ -159,7 +167,7 @@ This little piece of code minimally demonstrates how you can publish a message i
 
 Now we’ve made our producer worker. The message will remain in the queue until a consumer worker consumes the queue. This is what our Python code looks like:
 
-```
+```python
 # consumer.py
 # Consume RabbitMQ queue
 
@@ -169,7 +177,7 @@ channel = connection.channel()
 
 def callback(ch, method, properties, body):
     print(f'{body} is received')
-    
+
 channel.basic_consume(queue="my_queue", on_message_callback=callback, auto_ack=True)
 channel.start_consuming()
 ```
@@ -186,10 +194,10 @@ Again, run the script and observe the queue being consumed.
 
 Congratulations, you’ve built a distributed system using RabbitMQ. I hope that this tutorial has been eye-opening and inspiring. I believe that you can do more things by combining this MQ concept with your existing skills.
 
-### What’s next?
+### What’s next
 
 If you wish to learn more about message queues and RabbitMQ specifically, I recommend trying different types of exchanges and queues, authentication, running MQ producer and consumer workers in an asynchronous approach, etc.
 
 ### Warning: Message Queue Caveats
 
-To be honest, message queues are not an easy system to operate and maintain. Especially when it comes to clustering and failover, they require a lot of attention from your sysadmins. If you are working on a solo project or on a team of devs, I personally recommend using a managed service offered by major cloud providers to ease the pain until you are big enough (in team scale and capacity scale) to handle them in house.
+To be honest, message queues are not an easy system to operate and maintain. Especially when it comes to clustering and failover, they require a lot of attention from your sysadmins. If you are working on a solo project or on a team of devs, I personally recommend using a managed service offered by major cloud providers to ease the pain until you are big enough (in team scale and capacity scale) to handle them in house
