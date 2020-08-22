@@ -1,12 +1,10 @@
 ---
-title: "projects"
+title: "Projects"
 description: "projects from me"
 date: 2020-08-22
 keywords: []
 draft: false
 ---
-
-# Projects
 
 These are list of weekend projects I did for fun and learning.
 

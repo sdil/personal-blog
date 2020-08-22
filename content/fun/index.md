@@ -1,12 +1,10 @@
 ---
-title: "fun life"
+title: "Fun things I do outside work"
 description: "life fun!"
 date: 2020-08-22
 keywords: []
 draft: false
 ---
-
-# Fun things I do outside work
 
 ## Travelling with LOML
 

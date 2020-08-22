@@ -1,13 +1,10 @@
 ---
-title: "about"
+title: "Hi there!"
 description: "about me"
 date: 2020-08-22
 keywords: []
 draft: false
 ---
-
-
-# Hi there!
 
 My name is Fadhil Yaacob (pronounce [Fa-dale](https://www.howtopronounce.com/fadale/)). I am a Software Engineer at Onapp CDN. I'm based in Kuala Lumpur, Malaysia.
 
