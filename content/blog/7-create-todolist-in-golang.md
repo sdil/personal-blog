@@ -45,7 +45,7 @@ We will build a classic and simple Golang API server that connects to a Frontend
 -   Logrus for logging
 
 ## How our entire app will work
-![System archictecture](architecture.png)
+![System archictecture](/blog/7/architecture.png)
 
 We will be building what’s on the right side of the diagram. The specifications for our API Server are:
 
@@ -61,16 +61,18 @@ The web frontend that I have prepared will execute AJAX requests to  `localhost:
 
 ## Step 1: Bootstrap a project
 
-First, let’s create a new directory and install  `gorilla/mux`  and  `logrus`packages in the directory
+First, let’s create a new directory and install `gorilla/mux` and `logrus` packages in the directory
 
+```shell
 $ mkdir todolist-mysql-go  
 $ cd todolist-mysql-go  
 $ go get -u github.com/gorilla/mux  
 $ go get -u github.com/sirupsen/logrus
+```
 
 Now create`todolist.go`  file with the following content:
 
-```
+```go
 package main
 import (
 	"io"
@@ -110,7 +112,7 @@ It’s important to set the  `Content-Type: application/json`  so that the clien
 
 Simple enough, right? Let’s see what we’ve got so far.
 
-![Healthz endpoint](/blog/7/1-healthz.gif){:height="50%" width="50%"}
+![Healthz endpoint](/blog/7/1-healthz.gif)
 
 Great! Our first endpoint is now live!
 
@@ -118,14 +120,14 @@ Great! Our first endpoint is now live!
 
 Before connecting our Go app to the MySQL database, first, we’ll need to have our MySQL server up. We’ll be using Docker in this case to launch a MySQL container and expose the port 3306 to the  _localhost_. We will create a  `todolist`  database in the MySQL container.
 
-```
+```shell
 $ docker run -d -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root mysql  
 $ docker exec -it mysql mysql -uroot -proot -e 'CREATE DATABASE todolist'
 ```
 
 Back to our Go app, we’ll need to install the GORM libraries and dialects.
 
-```
+```shell
 $ go get -u github.com/jinzhu/gorm  
 $ go get -u github.com/go-sql-driver/mysql  
 $ go get -u github.com/jinzhu/gorm/dialects/mysql
@@ -133,7 +135,7 @@ $ go get -u github.com/jinzhu/gorm/dialects/mysql
 
 Add these lines in our  `todolist.go`  code:
 
-```
+```go
 package main
 
 import (
@@ -177,7 +179,7 @@ Our TodoItem struct will consist of:
 
 Add these lines to your Go code:
 
-```
+```go
 package main
 
 ...
@@ -209,15 +211,15 @@ In lines 7 to 11, we are defining the TodoItem model as what we described earlie
 
 In lines 19 and 20, we are running Auto-migration against our MySQL database immediately after starting our API server. See it in action here:
 
-![Auto migrations](/blog/7/3-db.gif){:height="50%" width="50%"}
+![Auto migrations](/blog/7/3-db.gif)
 
 Yeay our database is ready!
 
 ## Step 4: Create Todo Item operation
 
-Add the following lines in our  `todolist.go`  :
+Add the following lines in our `todolist.go`  :
 
-```
+```go
 package main
 
 import (
@@ -262,7 +264,7 @@ Inline 32, we register the new route  `/todo`  with  **HTTP POST**  request into
 
 Let’s continue with the rest of Read, Update, and Delete operations.
 
-```
+```go
 import (
 	"io"
 	"net/http"
@@ -378,13 +380,13 @@ In order to connect the API server to the frontend page, we need to give the COR
 
 To do so, you’ll need to install the go  `cors`  package
 
-```
+```shell
 $ go get -u github.com/rs/cors
 ```
 
-
 Add these lines to your Go code:
-```
+
+```go
 package main
 
 import (
@@ -424,17 +426,17 @@ In lines 28 to 32, we’re wrapping CORS handler around our existing application
 
 Now clone my frontend site for this Go app.
 
-```
+```shell
 $ git clone [git@github.com](mailto:git@github.com):sdil/todo.git
 ```
 
-Then open  `index.html`  page in your browser. There is nothing special in this simple JQuery page. I have modified original code made by  [themaxsandelin](https://github.com/themaxsandelin/)to execute AJAX requests when you click buttons in the page. Check  `resources/js/main.js`  file to see how the web frontend works.
+Then open `index.html` page in your browser. There is nothing special in this simple JQuery page. I have modified the original code made by [themaxsandelin](https://github.com/themaxsandelin/) to execute AJAX requests when you click buttons in the page. Check  `resources/js/main.js`  file to see how the web frontend works.
 
 ## Step 7: Build the package
 
 Now we’re done with our coding. You can now compile your code.
 
-```
+```shell
 $ go build  
 $ ./todolist-mysql-go
 ```
@@ -447,6 +449,6 @@ Congratulations, you’ve built yourself a Todolist in Golang!!
 
 You can find the full source code in my Github repository. If you’re stuck at any point in this tutorial, feel free to refer [there](https://github.com/sdil/learning/blob/master/go/todolist-mysql-go/todolist.go)
 
-## Don’t Stop Learning!
+## Don’t Stop Learning
 
 This is an, in fact, a tiny part of Golang. There are many more things that you can explore next in Golang. You’ll have more reason to love Golang. I hope this tutorial inspired you to go explore more :D
