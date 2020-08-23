@@ -23,7 +23,7 @@ I have experience in developing:
 - Function as a Service (FaaS) system using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront
 - Web frontend [VueJS & NuxtJS](/tags/vuejs/), jQuery, Bulma & Bootstrap CSS Framework
 
-### Infrastructure
+### DevOps
 
 I have strong experience with the following technologies running in production:
 
