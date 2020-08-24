@@ -32,6 +32,7 @@ I have strong experience with the following technologies running in production:
 - [RabbitMQ](/tags/message-queue/)
 - Puppet configuration management
 - Monitoring System: Nagios, InfluxDB, Grafana and NetData
+- CI/CD tools: Jenkins, Google Cloud Build
 - Google Cloud Platform (GKE, GCE, BigQuery, Cloud Build, GCS & IAM)
 
 I also have some experience with the following technologies:
