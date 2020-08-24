@@ -1,7 +1,6 @@
 ---
 title: "Hi there!"
 description: "about me"
-date: 2020-08-22
 keywords: []
 draft: false
 ---
@@ -12,15 +11,15 @@ During my free time, I enjoy shredding my guitar. You can see some videos in my 
 
 ## Skills
 
-I have been working with in **Content Delivery Network (CDN)** industry for 3+ years and have been coding professionally in **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge. Along the way, I have been working many technologies.
+I have been working with in **Content Delivery Network (CDN)** and Video Streaming industry for 3+ years and have been coding professionally in **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge. Along the way, I have been working many technologies.
 
 ### Web Development
 
 I have experience in developing:
 
-- Monolithic web services using [Django <3](/tags/django/) and Java Spring (legacy system) in production
+- Monolithic web services using [Django](/tags/django/) and Spring in production
 - Microservices using Flask and [Golang Echo](/tags/golang/) (non-production)
-- Function as a Service (FaaS) system using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront
+- Serverless Function as a Service (FaaS) using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront
 - Web frontend [VueJS & NuxtJS](/tags/vuejs/), jQuery, Bulma & Bootstrap CSS Framework
 
 ### DevOps
@@ -29,7 +28,7 @@ I have strong experience with the following technologies running in production:
 
 - [Kubernetes (On-prem) with k3s](/tags/kubernetes/)
 - MySQL / MariaDB
-- Elasticsearch ELK Stack
+- Elastic stack
 - [RabbitMQ](/tags/message-queue/)
 - Puppet configuration management
 - Monitoring System: Nagios, InfluxDB, Grafana and NetData
@@ -38,7 +37,7 @@ I have strong experience with the following technologies running in production:
 I also have some experience with the following technologies:
 
 - [Ansible](https://github.com/sdil/learning/tree/master/ansible)
-- Amazon Web Service (EC2, ECS, RDS, S3, VPC, Route53, CDK, Lambda, CloudFront, API Gateway, DynamoDB)
+- AWS
 - PostgreSQL
 
 ### Certifications
