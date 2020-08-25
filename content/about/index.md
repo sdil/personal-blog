@@ -11,7 +11,7 @@ During my free time, I enjoy shredding my guitar. You can see some videos in my 
 
 ## Skills
 
-I have been working with in **Content Delivery Network (CDN)** and Video Streaming industry for 3+ years and have been coding professionally in **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge. Along the way, I have been working many technologies.
+I have been working in **Content Delivery Network (CDN)** and Video Streaming industry for 3+ years and have been coding professionally in **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge. Along the way, I have been working many technologies.
 
 ### Web Development
 
@@ -40,6 +40,7 @@ I also have some experience with the following technologies:
 - [Ansible](https://github.com/sdil/learning/tree/master/ansible)
 - AWS
 - PostgreSQL
+- CircleCI
 
 ### Certifications
 
