@@ -8,7 +8,11 @@ toc: true
 
 These are the list of weekend projects I did for fun and learning.
 
-## Voting Serverless - Aug 2020
+## Open Source Projects
+
+These are my open source projects published on Github.
+
+### Voting Serverless - Aug 2020
 
 ![voting serverless](voting-serverless.png)
 
@@ -18,7 +22,7 @@ Visit the project [here](https://vote.fadhil-blog.dev). See the source code [her
 
 **Technologies Used**: AWS CDK, DynamoDB, DynamoDB Streams, SQS, Lambda, API Gateway (HTTP API), S3, Cloudfront, ACM, X-Ray, Cognito User Pools, NuxtJS
 
-## Chat App - WIP
+### Chat App - WIP
 
 Visit the project [here](https://chat.fadhil-blog.dev). See the source code [here](https://github.com/sdil/graphql-chat). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1306045334414479360).
 
@@ -26,7 +30,7 @@ Visit the project [here](https://chat.fadhil-blog.dev). See the source code [her
 
 **Technologies Used**: Hasura, Websocket, PostgreSQL, Docker, Firebase Auth, NuxtJS + Apollo
 
-## Hasura Firebase Auth Webhook - WIP
+### Hasura Firebase Auth Webhook - WIP
 
 Visit the project & source code [here](https://github.com/sdil/hasura-firebase-auth-webhook). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1309432290930380801).
 
@@ -34,7 +38,7 @@ Visit the project & source code [here](https://github.com/sdil/hasura-firebase-a
 
 **Technologies Used**: Go, Docker (with multi-stage build), Github Actions & Github Container Registry.
 
-## Yet Another Free Instagram Clone (YAFIG) - WIP
+### Yet Another Free Instagram Clone (YAFIG) - WIP
 
 ![YAFIG](yafig.png)
 
