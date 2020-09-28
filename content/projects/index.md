@@ -8,6 +8,10 @@ toc: true
 
 These are the list of weekend projects I did for fun and learning.
 
+## Commercial Projects
+
+I'll be working and launching some commercial projects/start-up in 2021. Stay tuned ;)
+
 ## Open Source Projects
 
 These are my open source projects published on Github.
@@ -47,3 +51,7 @@ Visit the project [here](https://yafig.netlify.app). See the source code [here](
 **Objective**: Learning to build **production-ready REST API** using Django REST Framework (monolith) by building a simple Instagram clone, in public.
 
 **Technologies Used**: Django, Django REST Framework, PostgreSQL, Docker, Elasticsearch, Redis, Celery, Sentry, AWS S3, Netlify, NuxtJS.
+
+### Other Projects
+
+I've made various contributions on many open source projects, mostly related to Kubernetes. You can visit them in my [Github profile](https://github.com/sdil?tab=repositories).
