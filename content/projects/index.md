@@ -54,4 +54,4 @@ Visit the project [here](https://yafig.netlify.app). See the source code [here](
 
 ### Other Projects
 
-I've made various contributions on many open source projects, mostly related to Kubernetes. You can visit them in my [Github profile](https://github.com/sdil?tab=repositories).
+I've made minor contributions on many open source projects, mostly related to Kubernetes. You can visit them in my [Github profile](https://github.com/sdil?tab=repositories).
