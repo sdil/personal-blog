@@ -34,7 +34,7 @@ Visit the project [here](https://chat.fadhil-blog.dev). See the source code [her
 
 **Technologies Used**: Hasura, Websocket, PostgreSQL, Docker, Firebase Auth, NuxtJS + Apollo
 
-### Hasura Firebase Auth Webhook - WIP
+### Hasura Firebase Auth Webhook - Sep 2020
 
 Visit the project & source code [here](https://github.com/sdil/hasura-firebase-auth-webhook). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1309432290930380801).
 
