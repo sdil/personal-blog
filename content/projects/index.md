@@ -16,6 +16,14 @@ I'll be working and launching some commercial projects/start-up in 2021. Stay tu
 
 These are my open source projects published on Github.
 
+### Hasura Firebase Auth Webhook - Sep 2020
+
+Visit the project & source code [here](https://github.com/sdil/hasura-firebase-auth-webhook). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1309432290930380801).
+
+**Objective**: While building a [GraphQL Chat App](#chat-app---wip), I'm integrating my Hasura GraphQL engine with Firebase Auth. This webhook will secure the GraphQL endpoints with Firebase Auth.
+
+**Technologies Used**: Go, Docker (with multi-stage build), Github Actions & Github Container Registry.
+
 ### Voting Serverless - Aug 2020
 
 ![voting serverless](voting-serverless.png)
@@ -33,14 +41,6 @@ Visit the project [here](https://chat.fadhil-blog.dev). See the source code [her
 **Objective**: Learning to build **GraphQL** project by building a simple chat app, in public.
 
 **Technologies Used**: Hasura, Websocket, PostgreSQL, Docker, Firebase Auth, NuxtJS + Apollo
-
-### Hasura Firebase Auth Webhook - Sep 2020
-
-Visit the project & source code [here](https://github.com/sdil/hasura-firebase-auth-webhook). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1309432290930380801).
-
-**Objective**: While building a [GraphQL Chat App](#chat-app---wip), I'm integrating my Hasura GraphQL engine with Firebase Auth. This webhook will secure the GraphQL endpoints with Firebase Auth.
-
-**Technologies Used**: Go, Docker (with multi-stage build), Github Actions & Github Container Registry.
 
 ### Yet Another Free Instagram Clone (YAFIG) - WIP
 
