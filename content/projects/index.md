@@ -16,6 +16,16 @@ I'll be working and launching some commercial projects/start-up in 2021. Stay tu
 
 These are my open source projects published on Github.
 
+### Chat App - Oct 2020
+
+![chat app](chat.gif)
+
+Visit the project [here](https://chat.fadhil-blog.dev). See the source code [here](https://github.com/sdil/graphql-chat). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1306045334414479360).
+
+**Objective**: Learning to build **GraphQL** project by building a simple chat app, in public.
+
+**Technologies Used**: Hasura, Websocket, PostgreSQL, Docker, Firebase Auth, NuxtJS + Apollo
+
 ### Hasura Firebase Auth Webhook - Sep 2020
 
 Visit the project & source code [here](https://github.com/sdil/hasura-firebase-auth-webhook). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1309432290930380801).
@@ -33,16 +43,6 @@ Visit the project [here](https://vote.fadhil-blog.dev). See the source code [her
 **Objective**: Learning **Serverless technology** by building a simple scalable voting app, in public.
 
 **Technologies Used**: AWS CDK, DynamoDB, DynamoDB Streams, SQS, Lambda, API Gateway (HTTP API), S3, Cloudfront, ACM, X-Ray, Cognito User Pools, NuxtJS
-
-### Chat App - Oct 2020
-
-![chat app](chat.gif)
-
-Visit the project [here](https://chat.fadhil-blog.dev). See the source code [here](https://github.com/sdil/graphql-chat). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1306045334414479360).
-
-**Objective**: Learning to build **GraphQL** project by building a simple chat app, in public.
-
-**Technologies Used**: Hasura, Websocket, PostgreSQL, Docker, Firebase Auth, NuxtJS + Apollo
 
 ### Yet Another Free Instagram Clone (YAFIG) - WIP
 
