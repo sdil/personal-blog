@@ -34,7 +34,9 @@ Visit the project [here](https://vote.fadhil-blog.dev). See the source code [her
 
 **Technologies Used**: AWS CDK, DynamoDB, DynamoDB Streams, SQS, Lambda, API Gateway (HTTP API), S3, Cloudfront, ACM, X-Ray, Cognito User Pools, NuxtJS
 
-### Chat App - WIP
+### Chat App - Oct 2020
+
+![chat app](chat.gif)
 
 Visit the project [here](https://chat.fadhil-blog.dev). See the source code [here](https://github.com/sdil/graphql-chat). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1306045334414479360).
 
