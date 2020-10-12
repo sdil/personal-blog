@@ -18,7 +18,7 @@ I have been working in **Content Delivery Network (CDN)** and Video Streaming in
 I have experience in developing:
 
 - Monolithic web services using [Django](/tags/django/) and Spring in production
-- Microservices using Flask and [Golang Echo](/tags/golang/) (non-production)
+- Microservices using Flask, FastAPI and [Golang Echo](/tags/golang/) (non-production)
 - Serverless Function as a Service (FaaS) using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront
 - Web frontend [VueJS & NuxtJS](/tags/vuejs/), jQuery, Bulma & Bootstrap CSS Framework
 
