@@ -13,6 +13,7 @@ math: false
 Photo by John Schnobrich on Unsplash
 
 Over the past few months, I've been building many side projects in my free time for learning apart from working full-time as a software engineer for the past 3 years. When building the side projects, I intentionally use many different technology stacks that I'm not familiar with in order to learn and make more informed choices in the future.
+
 Over that period, I've developed my preferences towards the tech stacks of choice and approaches on how I'm gonna build my next project.
 
 - Prefers API-first development that automatically generates API documentation for you. It's always better to spend extra hours documenting your API rather than spending extra hours every time figuring out how to use the API endpoint you wrote 3 months ago. It also frees up your mental memory. You may use FastAPI, Django REST Framework, or Connexion for this.
