@@ -22,9 +22,9 @@ These are my open source projects published on Github.
 
 Visit the project [here](https://chat.fadhil-blog.dev). See the source code [here](https://github.com/sdil/graphql-chat). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1306045334414479360).
 
-**Objective**: Learning to build **GraphQL** project by building a simple chat app, in public.
+**Objective**: Learning to build **GraphQL** project and **accept payment** by building a simple chat app, in public.
 
-**Technologies Used**: Hasura, Websocket, PostgreSQL, Docker, Firebase Auth, NuxtJS + Apollo
+**Technologies Used**: Hasura, Websocket, PostgreSQL, Docker, Firebase Auth, Stripe, NuxtJS + Apollo
 
 ### Hasura Firebase Auth Webhook - Sep 2020
 
