@@ -42,7 +42,7 @@ I also have some experience with the following technologies:
 - PostgreSQL
 - CircleCI
 
-### Certifications
+### Trainings & Certifications
 
 I also have finished many online courses to broaden my knowledge. These are my certificate of completions:
 
@@ -50,6 +50,7 @@ I also have finished many online courses to broaden my knowledge. These are my c
 - [AWS ECS - Scaling Docker](https://verify.acloud.guru/BC648C629A48) by A Cloud Guru
 - [Kubernetes Deep Dive](https://verify.acloud.guru/445E8386BBF0) by A Cloud Guru
 - [Introduction to Ansible](https://verify.acloud.guru/EE90B7C9B544) by A Cloud Guru
+- [Qwiklabs Profile](https://www.qwiklabs.com/public_profiles/1f3c1bdb-9425-4890-9eee-c38964c20470)
 
 I also occasionally post what I have learned in my Github repository. Refer [here](https://github.com/sdil/learning)
 
