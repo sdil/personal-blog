@@ -41,7 +41,7 @@ Here are things I would love to try on Kubernetes:
 
 ### Vitess DB & Cockroach DB
 
-I am surprised that complex database deployments on Kubernetes are surprisingly easy using Kubernetes Operator/Helm. In the coming year, I would love to use [Vitess DB](https://vitess.io) DB and [Cockroach DB](cockroachlabs.com) for my personal project. It might be overkill for small projects, but I would love the get the hands on experience.
+I am surprised that complex database deployments on Kubernetes are surprisingly easy using Kubernetes Operator/Helm. In the coming year, I would love to use [Vitess DB](https://vitess.io) and [Cockroach DB](cockroachlabs.com) for my personal project. It might be overkill for small projects, but I would love the get the hands on experience.
 
 I would love to have a real feel of administering DBs on Kubernetes. 
 
