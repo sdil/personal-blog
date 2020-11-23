@@ -10,7 +10,17 @@ These are the list of weekend projects I did for fun and learning.
 
 ## Commercial Projects
 
-I'll be working and launching some commercial projects/start-up in 2021. Stay tuned ;)
+### Raudhah Ilmi Dropship Centre - Nov 2020
+
+![raudhah ilmi](raudhahilmi.png)
+
+This is a special project built for my wife's business.
+
+**Objective**: Dropship agents to be able to calculate shipping price, submit orders and tracking orders easily even from a mobile phone.
+
+**Technologies used**: Django Rest Framework, CockroachDB, Google Oauth2 social login, Netlify, AWS S3, Nuxt Auth, Nuxt PWA.
+
+I'll be working and launching more commercial projects/startups in 2021. Stay tuned ;)
 
 ## Open Source Projects
 
