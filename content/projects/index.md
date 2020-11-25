@@ -14,11 +14,11 @@ These are the list of weekend projects I did for fun and learning.
 
 ![raudhah ilmi](raudhahilmi.png)
 
-This is a special project built for my lovely wife's business.
+This is a special project built for my lovely wife's bookshop.
 
-**Objective**: Dropship agents to be able to calculate shipping price, submit orders and tracking orders easily even from a mobile phone.
+**Objective**: Dropship agents to be able to calculate shipping price, submit orders and tracking orders easily, even from a mobile phone.
 
-**Technologies used**: Django Rest Framework, CockroachDB, Google Oauth2 social login, Netlify, AWS S3, Nuxt Auth, Nuxt PWA.
+**Technologies used**: Django Rest Framework, AWS RDS PostgreSQL-compatible, AWS ECS on EC2, AWS S3, AWS ECR, AWS CDK, Google Oauth2 social login, Netlify, Nuxt Auth, Nuxt PWA.
 
 I'll be working and launching more commercial projects/startups in 2021. Stay tuned ;)
 
