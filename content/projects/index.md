@@ -14,7 +14,7 @@ These are the list of weekend projects I did for fun and learning.
 
 ![raudhah ilmi](raudhahilmi.png)
 
-This is a special project built for my wife's business.
+This is a special project built for my lovely wife's business.
 
 **Objective**: Dropship agents to be able to calculate shipping price, submit orders and tracking orders easily even from a mobile phone.
 
