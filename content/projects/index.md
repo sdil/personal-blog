@@ -16,7 +16,7 @@ These are the list of weekend projects I did for fun and learning.
 
 This is a special project built for my lovely wife's bookshop.
 
-**Objective**: Dropship agents to be able to calculate shipping price, submit orders and tracking orders easily, even from a mobile phone.
+**Objective**: Dropship agents to be able to calculate shipping price, submit orders and track orders easily, even from a mobile phone.
 
 **Technologies used**: Django Rest Framework, AWS RDS PostgreSQL-compatible, AWS ECS on EC2, AWS S3, Google Oauth2 social login, Netlify, Nuxt Auth, Nuxt PWA.
 
