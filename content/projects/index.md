@@ -12,7 +12,7 @@ These are the list of weekend projects I did for fun and learning.
 
 ### Raudhah Ilmi Dropship Centre - Nov 2020
 
-![raudhah ilmi](raudhahilmi.png)
+![raudhah ilmi](raudhahilmi.gif)
 
 This is a special project built for my lovely wife's bookshop.
 
