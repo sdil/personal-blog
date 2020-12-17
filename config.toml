@@ -73,7 +73,13 @@ copyright = "© Fadhil Yaacob {year}"
   url = "/projects"
 
 [[menu.main]]
+  identifier = "learning"
+  name = "learning"
+  title = "Learning"
+  url = "/learning"
+
+[[menu.main]]
   identifier = "about"
   name = "about"
-  title = "about"
+  title = "About"
   url = "/about"
