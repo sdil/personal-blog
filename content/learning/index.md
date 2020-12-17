@@ -10,6 +10,7 @@ toc: false
 
 - I learned Django
 - I learned Nuxt & Vue
+- I learned Ansible
 
 ## 2019
 
@@ -23,6 +24,7 @@ I'm working as a full-time SWE
 
 - I learned RabbitMQ
 - I learned Flask & CherryPy
+- I learned Puppet
 
 ## 2017
 
