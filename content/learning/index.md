@@ -16,7 +16,7 @@ This page records everything I’ve studied, learned or practiced. This page is 
 - *Taught myself beginner-level Nuxt & Vue
   - Built many web JAMstack projects together with Django REST Framework
 - Taught myself PostgreSQL and CockroachDB. Learned a bit of DB internals like compaction, Write Ahead Logs (WAL), RocksDB storage engine, indexing, materialized views, etc.
-- Taught myself AWS products eg. DynamoDB, S3, CDK, RDS, etc. Built [Voting Serverless App](https://fadhil-blog.dev/projects/#voting-serverless---aug-2020) using these techs. Learned DynamoDB single-table pattern.
+- Taught myself AWS products eg. DynamoDB, S3, Lambda, APIGW, CDK, RDS, etc. Built [Voting Serverless App](https://fadhil-blog.dev/projects/#voting-serverless---aug-2020) using these techs. Learned DynamoDB single-table pattern.
 - Taught myself GCP products eg. GCS, BigQuery, Data Studio, GCR, Cloud Build, etc.
 - Taught myself programming theories like Domain Driven Development, Dependency Injection, Even Sourcing, Design Patterns, [Microservice](https://microservices.io/) architecture, Port & Adapter pattern, etc.
 - Other techs I taught myself: GraphQL client, Firebase Auth, Stripe integration, Hasura, Nomad
@@ -25,7 +25,7 @@ This page records everything I’ve studied, learned or practiced. This page is 
 
 - *Taught myself intermediate-level Kubernetes
   - Wrote a Proof of Concept Kubernetes CSI-compatible storage controller based on [Rancher Local Path Provisioner](https://fadhil-blog.dev/blog/rancher-local-path-provisioner/).
-  - Designing, bootstraping & managing multiple on-prem edge clusters
+  - Planning, bootstraping & managing multiple on-prem edge clusters
 - Taught myself basic AWS & GCP cloud. Taking A Cloud Guru courses.
 - Taught myself basic Go. Built non-production web apps using Echo & Gin web framework.
 - Other techs I taught myself: Ansible
@@ -44,12 +44,12 @@ This is during my university internship year
 
 - *Taught myself Python. Wrote my first unit tests. Fell in love with Python ever since.
 - *Taught myself Docker. My personal development process has changed ever since.
-- Other techs I taught myself: Java Spring & Hibernate, Behavioral Testing, CI/CD with Jenkins, Elastic stack
+- Other techs I taught myself: Java Spring & Hibernate, Behavioral Testing with Ruby Cucumber, CI/CD with Jenkins, Elastic stack
 
 ## 2016
 
-- Studied the basic of Java, PHP & MySQL in my university year.
-- Taught myself IBM Cloud, Cloudant & Cloud Foundry for Final Year Project.
+- Studied the basic of Java, PHP & MySQL in my university years.
+- Taught myself IBM Cloud, Cloudant & Cloud Foundry for dissertation project.
 
 ## 2011
 
