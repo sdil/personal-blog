@@ -6,17 +6,17 @@ draft: false
 toc: false
 ---
 
-\* The points with * are my favourites
+\* The points with (*) are my favorites
 
 ## 2020
 
 - *Learned Django & Django REST Framework
 - *Learned Nuxt & Vue
   - Built many web JAMstack projects together with Django REST Framework
-- Learned PostgreSQL and CockroachDB. Learned the DB internals like compaction, Write Ahead Logs (WAL), replication, RocksDB storage engine, indexing, materialized views, etc.
-- Learned AWS-centric products eg. DynamoDB, S3, CDK, RDS, etc. Built [Chat App](https://fadhil-blog.dev/projects/#chat-app---oct-2020) using these techs.
-- Learned GCP-centric products eg. GCS, BigQuery, Data Studio, GCR, Cloud Build, etc.
-- Learned programming theories like Domain Driven Development, Dependency Injection, Even Sourcing, Design Pattern, [Microservice](https://microservices.io/), Port & Adapter pattern, etc. but did not produce any products.
+- Learned PostgreSQL and CockroachDB. Learned a bit of DB internals like compaction, Write Ahead Logs (WAL), RocksDB storage engine, indexing, materialized views, etc.
+- Learned AWS products eg. DynamoDB, S3, CDK, RDS, etc. Built [Chat App](https://fadhil-blog.dev/projects/#chat-app---oct-2020) using these techs. Learned DynamoDB single-table pattern.
+- Learned GCP products eg. GCS, BigQuery, Data Studio, GCR, Cloud Build, etc.
+- Learned programming theories like Domain Driven Development, Dependency Injection, Even Sourcing, Design Patterns, [Microservice](https://microservices.io/) architecture, Port & Adapter pattern, etc.
 - Other techs I learned: GraphQL client, Stripe integration, Hasura, Nomad
 
 ## 2019
@@ -32,7 +32,7 @@ toc: false
 
 I'm working as a full-time SWE
 
-- *Learned RabbitMQ. Learned the basic of message brokering & how asynchronous, microservice system works. It changes my views on how scalable system are built.
+- *Learned RabbitMQ. Learned the basic of message brokering & how asynchronous, microservice system works. It radically changed my views on how scalable system are built.
 - Learned DevOps tools like Puppet, Grafana, Netdata, etc.
 - Other techs I learned: InfluxDB, Nginx Lua, etc.
 
@@ -46,7 +46,7 @@ This is during my university internship year
 
 ## 2016
 
-- Learned Java, PHP & MySQL in my univerisity year.
+- Learned basic of Java, PHP & MySQL in my univerisity year.
 - Learned IBM Cloud, Cloudant & Cloud Foundry for Final Year Project.
 
 ## 2011
