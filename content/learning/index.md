@@ -6,7 +6,7 @@ draft: false
 toc: false
 ---
 
-This page records everything I’ve studied, learned or practiced. This page is inspired by [Ben Barbersmith](https://www.barbersmith.com/notes/self-education/).
+This page records everything I’ve studied, learned or practiced. This page is inspired by [Ben Barbersmith's](https://www.barbersmith.com/notes/self-education/).
 
 \* The points with (*) are my favorites
 
@@ -36,7 +36,7 @@ I'm working as a full-time SWE
 
 - *Taught myself basic. Learned the basic of message brokering & how asynchronous, microservice system works. It radically changed my views on how scalable system are built.
 - Taught myself DevOps tools like Puppet, Grafana, Netdata, etc.
-- Other techs I taught myself: InfluxDB, Nginx Lua, etc.
+- Other techs I taught myself: InfluxDB, Nginx Lua, MongoDB, etc.
 
 ## 2017
 

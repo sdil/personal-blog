@@ -1,6 +1,8 @@
 # DO NOT REMOVE THIS
 theme = "hugo-theme-codex" 
 
+ignoreErrors = ["error-remote-getjson"]
+
 # Override these settings with your own
 title = "Fadhil Dev Blog"
 languageCode = "en-us"
@@ -83,3 +85,4 @@ copyright = "© Fadhil Yaacob {year}"
   name = "about"
   title = "About"
   url = "/about"
+
