@@ -18,7 +18,7 @@ This page records everything I’ve studied, learned or practiced. This page is 
 - Taught myself PostgreSQL and CockroachDB. Learned a bit of DB internals like compaction, Write Ahead Logs (WAL), RocksDB storage engine, indexing, materialized views, etc.
 - Taught myself AWS products eg. DynamoDB, S3, Lambda, APIGW, CDK, RDS, etc. Built [Voting Serverless App](https://fadhil-blog.dev/projects/#voting-serverless---aug-2020) using these techs. Learned DynamoDB single-table pattern.
 - Taught myself GCP products eg. GCS, BigQuery, Data Studio, GCR, Cloud Build, etc.
-- Studied programming theories like Domain Driven Development, Dependency Injection, Event Sourcing, CQRS, Saga pattern, Design Patterns, [Microservice](https://microservices.io/) architecture, Port & Adapter pattern, etc.
+- Studied programming theories like Domain Driven Development, Dependency Injection, Event Sourcing, CQRS, Saga pattern, Design Patterns, [Microservice](https://microservices.io/) architecture, Port & Adapter pattern, Clean architecture pattern, etc.
 - Other techs I taught myself: GraphQL client, Firebase Auth, Stripe integration (Billing & Payments), Hasura, Hashicorp Nomad
 
 ## 2019
@@ -34,7 +34,7 @@ This page records everything I’ve studied, learned or practiced. This page is 
 
 I'm working as a full-time SWE
 
-- *Taught myself basic. Learned the basics of message brokering & how asynchronous, microservice system works. It radically changed my views on how scalable systems are built.
+- *Taught myself basics of message brokering & how asynchronous, microservice system works. It radically changed my views on how scalable systems are built.
 - Taught myself DevOps tools like Puppet, Grafana, Netdata, etc.
 - Other techs I taught myself: InfluxDB, Nginx Lua, MongoDB, etc.
 
