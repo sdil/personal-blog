@@ -15,7 +15,7 @@ This page records everything I’ve studied, learned or practiced. This page is 
 - *Taught myself intermediate-level Django & Django REST Framework. Loving this framework.
 - *Taught myself beginner-level Nuxt & Vue
   - Built many web JAMstack projects together with Django REST Framework
-- Taught myself PostgreSQL and CockroachDB. Learned a bit of DB internals like compaction, Write Ahead Logs (WAL), RocksDB storage engine, indexing, materialized views, etc.
+- Taught myself PostgreSQL and CockroachDB. Learned a bit of DB knowledges like compaction, Write Ahead Logs (WAL), RocksDB storage engine, indexing, materialized views, etc.
 - Taught myself AWS products eg. DynamoDB, S3, Lambda, APIGW, CDK, RDS, etc. Built [Voting Serverless App](https://fadhil-blog.dev/projects/#voting-serverless---aug-2020) using these techs. Learned DynamoDB single-table pattern.
 - Taught myself GCP products eg. GCS, BigQuery, Data Studio, GCR, Cloud Build, etc.
 - Studied programming theories like Domain Driven Development, Dependency Injection, Event Sourcing, CQRS, Saga pattern, Design Patterns, [Microservice](https://microservices.io/) architecture, Port & Adapter pattern, Clean architecture pattern, etc.
