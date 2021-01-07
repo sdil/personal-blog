@@ -10,6 +10,11 @@ This page records everything I’ve studied, learned or practiced. This page is 
 
 \* The points with (*) are my favorites
 
+## 2021
+
+- *Taught myself beginner-level Elixir Phoenix framework. A freaking fast in performance and development speed.
+- Studied UIUX by reading and watching [Refactoring UI by Adam Wathan & Steve Schoger](https://refactoringui.com/)
+
 ## 2020
 
 - *Taught myself intermediate-level Django & Django REST Framework. Loving this framework.
