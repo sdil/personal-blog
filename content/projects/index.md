@@ -26,6 +26,14 @@ I'll be working and launching more commercial projects/startups in 2021. Stay tu
 
 These are my open source projects published on Github.
 
+### Phoenix NuxtJS Todolist - Jan 2021 (WIP)
+
+Visit the project [here](https://todo-app-phoenix-nuxtjs.vercel.app/todo). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1349369045284311044).
+
+**Objective**: Learning to build Elixir Phoenix backend, complete with Authentication, Social Login, File Upload and Background Job. I am really impressed with Phoenix speed compared to Python Django. I've made a quick benchmark (and learned how to speed up the deployment) [here](https://github.com/sdil/benchmark-frameworks).
+
+**Technologies Used**: Elixir, Phoenix, PostgreSQL, Docker, Pow, exq, ExRated, Waffle
+
 ### Chat App - Oct 2020
 
 ![chat app](chat.gif)
@@ -54,7 +62,7 @@ Visit the project [here](https://vote.fadhil-blog.dev). See the source code [her
 
 **Technologies Used**: AWS CDK, DynamoDB, DynamoDB Streams, SQS, Lambda, API Gateway (HTTP API), S3, Cloudfront, ACM, X-Ray, Cognito User Pools, NuxtJS
 
-### Yet Another Free Instagram Clone (YAFIG) - WIP
+### Yet Another Free Instagram Clone (YAFIG) - Abandoned
 
 ![YAFIG](yafig.png)
 

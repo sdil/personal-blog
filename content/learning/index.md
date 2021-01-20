@@ -14,6 +14,7 @@ This page records everything I’ve studied, learned or practiced. This page is 
 
 - *Taught myself beginner-level Elixir Phoenix framework. A freaking fast in performance and development speed. Published a simple benchmark [here](https://github.com/sdil/benchmark-frameworks)
 - Studied UIUX by reading and watching [Refactoring UI by Adam Wathan & Steve Schoger](https://refactoringui.com/)
+- Taught myself basic security vulnerabilities (CSRF, XSS, SQL Injection)
 
 ## 2020
 
