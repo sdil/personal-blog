@@ -28,9 +28,9 @@ These are my open source projects published on Github.
 
 ### Phoenix NuxtJS Todolist - Jan 2021 (WIP)
 
-Visit the project [here](https://todo-app-phoenix-nuxtjs.vercel.app/todo). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1349369045284311044).
+Visit the project [here](https://todo-app-phoenix-nuxtjs.vercel.app/todo). View the source code [here](https://github.com/sdil/todo-app-phoenix-nuxtjs). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1349369045284311044).
 
-**Objective**: Learning to build Elixir Phoenix backend, complete with Authentication, Social Login, File Upload and Background Job. I am really impressed with Phoenix speed compared to Python Django. I've made a quick benchmark (and learned how to speed up the deployment) [here](https://github.com/sdil/benchmark-frameworks).
+**Objective**: Learning to build Elixir Phoenix backend, complete with Authentication, Social Login, File Upload and Background Job. I am really impressed with Phoenix speed compared to Python Django. I've made a quick benchmark test (and learned how to speed them up) [here](https://github.com/sdil/benchmark-frameworks).
 
 **Technologies Used**: Elixir, Phoenix, PostgreSQL, Docker, Pow, exq, ExRated, Waffle
 
@@ -38,7 +38,7 @@ Visit the project [here](https://todo-app-phoenix-nuxtjs.vercel.app/todo). See m
 
 ![chat app](chat.gif)
 
-Visit the project [here](https://chat.fadhil-blog.dev). See the source code [here](https://github.com/sdil/graphql-chat). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1306045334414479360).
+Visit the project [here](https://chat.fadhil-blog.dev). View the source code [here](https://github.com/sdil/graphql-chat). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1306045334414479360).
 
 **Objective**: Learning to build **GraphQL** project and **accept payment** by building a simple chat app, in public.
 
@@ -56,7 +56,7 @@ Visit the project & source code [here](https://github.com/sdil/hasura-firebase-a
 
 ![voting serverless](voting-serverless.png)
 
-Visit the project [here](https://vote.fadhil-blog.dev). See the source code [here](https://github.com/sdil/voting-serverless-cdk). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1284816892301959168).
+Visit the project [here](https://vote.fadhil-blog.dev). View the source code [here](https://github.com/sdil/voting-serverless-cdk). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1284816892301959168).
 
 **Objective**: Learning **Serverless technology** by building a simple scalable voting app, in public.
 
@@ -66,7 +66,7 @@ Visit the project [here](https://vote.fadhil-blog.dev). See the source code [her
 
 ![YAFIG](yafig.png)
 
-Visit the project [here](https://yafig.netlify.app). See the source code [here](https://github.com/yafig/api-server-monolith).
+Visit the project [here](https://yafig.netlify.app). View the source code [here](https://github.com/yafig/api-server-monolith).
 
 **Objective**: Learning to build **production-ready REST API** using Django REST Framework (monolith) by building a simple Instagram clone, in public.
 
