@@ -26,13 +26,15 @@ I'll be working and launching more commercial projects/startups in 2021. Stay tu
 
 These are my open source projects published on Github.
 
-### Phoenix NuxtJS Todolist - Jan 2021 (WIP)
+### Phoenix NuxtJS Todolist - Abandoned
 
 Visit the project [here](https://todo-app-phoenix-nuxtjs.vercel.app/todo). View the source code [here](https://github.com/sdil/todo-app-phoenix-nuxtjs). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1349369045284311044).
 
 **Objective**: Learning to build Elixir Phoenix backend, complete with Authentication, Social Login, File Upload and Background Job. I am really impressed with Phoenix speed compared to Python Django. I've made a quick benchmark test (and learned how to speed them up) [here](https://github.com/sdil/benchmark-frameworks).
 
 **Technologies Used**: Elixir, Phoenix, PostgreSQL, Docker, Pow, exq, ExRated, Waffle
+
+**Outcomes**: I am struggled to integrate the Phoenix API server with Nuxt SPA frontend especially on the social login part. I was using Pow and Pow Assent for user management. I would revisit Elixir Phoenix again when building a server-rendered projects later.
 
 ### Chat App - Oct 2020
 
@@ -70,7 +72,9 @@ Visit the project [here](https://yafig.netlify.app). View the source code [here]
 
 **Objective**: Learning to build **production-ready REST API** using Django REST Framework (monolith) by building a simple Instagram clone, in public.
 
-**Technologies Used**: Django, Django REST Framework, PostgreSQL, Docker, Elasticsearch, Redis, Celery, Sentry, AWS S3, Netlify, NuxtJS.
+**Technologies Used**: Django, Django REST Framework, PostgreSQL, Docker, Celery, Sentry, AWS S3, Netlify, NuxtJS.
+
+**Outcomes**: I have achieved most of the objectives in this project. I don't intend to make it perfect.
 
 ### Other Projects
 
