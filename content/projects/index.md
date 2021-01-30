@@ -22,7 +22,7 @@ This is a special project built for my lovely wife's bookshop.
 
 I'll be working and launching more commercial projects/startups in 2021. Stay tuned ;)
 
-## Open Source Projects
+## Learning / Open Source Projects
 
 These are my open source projects published on Github.
 
@@ -32,7 +32,7 @@ Visit the project [here](https://todo-app-phoenix-nuxtjs.vercel.app/todo). View 
 
 **Objective**: Learning to build Elixir Phoenix backend, complete with Authentication, Social Login, File Upload and Background Job. I am really impressed with Phoenix speed compared to Python Django. I've made a quick benchmark test (and learned how to speed them up) [here](https://github.com/sdil/benchmark-frameworks).
 
-**Technologies Used**: Elixir, Phoenix, PostgreSQL, Docker, Pow, exq, ExRated, Waffle
+**Technologies Used**: Elixir, Phoenix, PostgreSQL, Docker, Pow
 
 **Outcomes**: I am struggled to integrate the Phoenix API server with Nuxt SPA frontend especially on the social login part. I was using Pow and Pow Assent for user management. I would revisit Elixir Phoenix again when building a server-rendered projects later.
 
