@@ -10,6 +10,12 @@ These are the list of weekend projects I did for fun and learning.
 
 ## Commercial Projects
 
+### Tax App
+
+**Objective**: An app that helps commoners to manage tax better. Users can add/upload their income statement, their tax relief spendings and tax rebates to the system. We will calculate how much is their tax for that year and identify which tax relief categories are not fully utilized. The receipts/statements can be upload and stored for at least 7 years to comply to Malaysian's LHDN requirement.
+
+**Technologies Used**: Django Rest Framework, Nuxt, PWA, PostgreSQL, Heroku, Scout APM, Logentries (log aggregation), Google Social Login
+
 ### Raudhah Ilmi Dropship Centre - Nov 2020
 
 ![raudhah ilmi](raudhahilmi.gif)
