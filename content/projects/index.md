@@ -10,7 +10,9 @@ These are the list of weekend projects I did for fun and learning.
 
 ## Commercial Projects
 
-### Tax App
+### Tax App - Feb 2021
+
+![Tax app](tax-app.gif)
 
 **Objective**: An app that helps commoners to manage tax better. Users can add/upload their income statement, their tax relief spendings and tax rebates to the system. We will calculate how much is their tax for that year and identify which tax relief categories are not fully utilized. The receipts/statements can be upload and stored for at least 7 years to comply to Malaysian's LHDN requirement.
 
