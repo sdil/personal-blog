@@ -34,7 +34,7 @@ I'll be working and launching more commercial projects/startups in 2021. Stay tu
 
 These are my open source projects published on Github.
 
-### Phoenix NuxtJS Todolist - Abandoned
+### Phoenix NuxtJS Todolist (Abandoned) - Jan 2021
 
 Visit the project [here](https://todo-app-phoenix-nuxtjs.vercel.app/todo). View the source code [here](https://github.com/sdil/todo-app-phoenix-nuxtjs). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1349369045284311044).
 
@@ -72,7 +72,7 @@ Visit the project [here](https://vote.fadhil-blog.dev). View the source code [he
 
 **Technologies Used**: AWS CDK, DynamoDB, DynamoDB Streams, SQS, Lambda, API Gateway (HTTP API), S3, Cloudfront, ACM, X-Ray, Cognito User Pools, NuxtJS
 
-### Yet Another Free Instagram Clone (YAFIG) - Abandoned
+### Yet Another Free Instagram Clone (YAFIG) (Abandoned) - April 2020
 
 ![YAFIG](yafig.png)
 
