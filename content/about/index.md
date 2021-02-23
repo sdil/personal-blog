@@ -17,11 +17,11 @@ I have been working in **Content Delivery Network (CDN)** and Video Streaming in
 
 I have experience in developing:
 
-- Monolithic web services using [Django](/tags/django/) and Spring in production
+- Monolithic web services using [Django](/tags/django/) and Spring in production. I'm learning Elixir Phoenix for fun.
 - Microservices using Flask, FastAPI and [Golang Echo](/tags/golang/) (non-production)
 - Serverless Function as a Service (FaaS) using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront
-- Web frontend using [VueJS & NuxtJS](/tags/vuejs/), jQuery, Bulma & Bootstrap CSS Framework
-- Other technologies/services: Firebase Auth, GraphQL
+- Web frontend using [VueJS & NuxtJS](/tags/vuejs/), jQuery, Bulma & Bootstrap and Tailwind.
+- Other technologies/services: Firebase Auth, GraphQL, APM using Scout APM, Raygun & Sentry for error tracking, Logentries, Heroku
 
 ### DevOps
 
@@ -32,6 +32,7 @@ I have strong experience with the following technologies running in production:
 - Elastic stack
 - [RabbitMQ](/tags/message-queue/)
 - Puppet configuration management
+- On-prem log aggregation using Grafana Loki
 - Monitoring System: Nagios, InfluxDB, Grafana and NetData
 - CI/CD tools: Jenkins, Google Cloud Build
 - Google Cloud Platform (GKE, GCE, BigQuery, Cloud Build, GCS & IAM)
