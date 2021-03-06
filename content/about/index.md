@@ -5,7 +5,7 @@ keywords: []
 draft: false
 ---
 
-My name is Fadhil Yaacob (pronounce [Fa-dale](https://www.howtopronounce.com/fadale/)). I am a Software Engineer at Onapp CDN. I'm based in Kuala Lumpur, Malaysia.
+My name is Fadhil Yaacob (pronounce [Fa-dale](https://www.howtopronounce.com/fadale/)). I am a Software Engineer at Onapp CDN and part time Go developer. I'm based in Kuala Lumpur, Malaysia.
 
 During my free time, I enjoy shredding my guitar. You can see some videos in my [Youtube channel](https://www.youtube.com/user/piukul/).
 
@@ -13,12 +13,14 @@ During my free time, I enjoy shredding my guitar. You can see some videos in my 
 
 I have been working in **Content Delivery Network (CDN)** and Video Streaming industry for 3+ years and have been coding professionally in **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge. Along the way, I have been working many technologies.
 
+Besides, I am also working as part time Go developer helping various companies building prototypes and projects.
+
 ### Web Development
 
 I have experience in developing:
 
-- Monolithic web services using [Django](/tags/django/) and Spring in production. I'm learning Elixir Phoenix for fun.
-- Microservices using Flask, FastAPI and [Golang Echo](/tags/golang/) (non-production)
+- Monolithic web services using [Django](/tags/django/), [Go Gin](/tags/golang/) and Spring in production. I'm learning Elixir Phoenix for fun.
+- Microservices using Flask, FastAPI.
 - Serverless Function as a Service (FaaS) using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront
 - Web frontend using [VueJS & NuxtJS](/tags/vuejs/), jQuery, Bulma & Bootstrap and Tailwind.
 - Other technologies/services: Firebase Auth, GraphQL, APM using Scout APM, Raygun & Sentry for error tracking, Logentries, Heroku
@@ -55,5 +57,3 @@ I also have finished many online courses to broaden my knowledge. These are my c
 - [Qwiklabs Profile](https://www.qwiklabs.com/public_profiles/1f3c1bdb-9425-4890-9eee-c38964c20470)
 
 I also occasionally post what I have learned in my Github repository. Refer [here](https://github.com/sdil/learning)
-
-You can also see [here](/blog/2020-whats-next) for things that excites me in 2020. Those are some of the things I wish to learn in 2020.
