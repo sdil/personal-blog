@@ -30,9 +30,7 @@ This is a special project built for my lovely wife's bookshop.
 
 **Objective**: Dropship agents to be able to calculate shipping price, submit orders and track orders easily, even from a mobile phone.
 
-**Technologies used**: Django Rest Framework, PostgreSQL, Linode VM, AWS S3, Google Oauth2 social login, Netlify, Nuxt Auth, Nuxt PWA.
-
-I'll be working and launching more commercial projects/startups in 2021. Stay tuned ;)
+**Technologies used**: Django REST Framework, PostgreSQL, Linode VM, AWS S3, Google Oauth2 social login, Netlify, Nuxt Auth, Nuxt PWA.
 
 ## Learning / Open Source Projects
 
