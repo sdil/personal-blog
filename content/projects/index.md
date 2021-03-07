@@ -20,6 +20,8 @@ This service born out of frustration to handle my own tax for the past 3 years. 
 
 **Technologies Used**: Django Rest Framework, Nuxt, PWA, PostgreSQL, Heroku, Scout APM, Logentries (log aggregation), Raygun Error Tracking, Google Social Login
 
+**Outcomes**: The project is finished and used by me, close friends and family as I do not have capacity to support and maintain for public audience. I might be commercialize this product in the future.
+
 ### Raudhah Ilmi Dropship Centre - Nov 2020
 
 ![raudhah ilmi](raudhahilmi.gif)
