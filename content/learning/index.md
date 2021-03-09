@@ -8,11 +8,11 @@ toc: false
 
 This page records everything I’ve studied, learned or practiced. This page is inspired by [Ben Barbersmith's](https://www.barbersmith.com/notes/self-education/).
 
-\* The points with (\*) are my favorites
+The points with (\*) are my favorites.
 
 ## 2021
 
-- Ship Golang code to production. Integrated a web app with a Malaysia payment gateway (iPay88) with the API server built using Go Gin.
+- \*Ship Golang code to production. Integrated a web app with a Malaysia payment gateway (iPay88) with the API server built using Go Gin.
 - Taught myself beginner-level Elixir Phoenix framework. Published a simple benchmark [here](https://github.com/sdil/benchmark-frameworks). Tried to build several web apps and API servers using Phoenix but still not feeling productive with it yet.
 - Studied UI/UX by reading and watching [Refactoring UI by Adam Wathan & Steve Schoger](https://refactoringui.com/)
 - Taught myself basic security vulnerabilities (CSRF, XSS, SQL Injection)
