@@ -7,7 +7,7 @@ draft: false
 
 My name is Fadhil Yaacob (pronounce [Fa-dale](https://www.howtopronounce.com/fadale/)). I am a Software Engineer at Onapp CDN and part time Go developer. I'm based in Kuala Lumpur, Malaysia.
 
-During my free time, I enjoy shredding my guitar. You can see some videos in my [Youtube channel](https://www.youtube.com/user/piukul/).
+During my free time, I enjoy cooking with my wife and shredding my guitar \m/ You can see some videos in my [Youtube channel](https://www.youtube.com/user/piukul/).
 
 ## Skills
 
@@ -19,11 +19,11 @@ Besides, I am also working as part time Go developer helping various companies b
 
 I have experience in developing:
 
-- Monolithic web services using [Django](/tags/django/), [Go Gin](/tags/golang/) and Spring in production. I'm learning Elixir Phoenix for fun
-- Microservices using Flask, FastAPI
-- Serverless Function as a Service (FaaS) using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront
-- Web frontend using [VueJS & NuxtJS](/tags/vuejs/), jQuery, Bulma & Bootstrap and Tailwind
-- Other technologies/services: Firebase Auth, GraphQL, APM using Scout APM, Raygun & Sentry for error tracking, Logentries, Heroku
+- Monolithic web services using [Django](/tags/django/), [Go Gin](/tags/golang/) and Java Spring in production.
+- Microservices using Flask, FastAPI for side projects.
+- Serverless Function as a Service (FaaS) using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront.
+- Web frontend using [VueJS & NuxtJS](/tags/vuejs/), jQuery, Bulma & Bootstrap and Tailwind.
+- Other technologies/services: Firebase Auth, GraphQL, APM using Scout APM, Raygun & Sentry for error tracking, Logentries, Heroku.
 
 ### DevOps
 
