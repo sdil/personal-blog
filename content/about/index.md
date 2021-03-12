@@ -5,7 +5,7 @@ keywords: []
 draft: false
 ---
 
-My name is Fadhil Yaacob (pronounce [Fa-dale](https://www.howtopronounce.com/fadale/)). I am a Software Engineer at Onapp CDN and part time Go developer. I'm based in Kuala Lumpur, Malaysia.
+My name is Fadhil Yaacob (pronounce [Fa-dale](https://www.howtopronounce.com/fadale/)). I am a Software Engineer at Onapp CDN and freelance Go developer. I'm based in Kuala Lumpur, Malaysia.
 
 During my free time, I enjoy cooking with my wife and shredding my guitar \m/ You can see some videos in my [Youtube channel](https://www.youtube.com/user/piukul/).
 
@@ -13,7 +13,7 @@ During my free time, I enjoy cooking with my wife and shredding my guitar \m/ Yo
 
 I have been working in **Content Delivery Network (CDN)** and Video Streaming industry for 3+ years and have been coding professionally in **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge. Along the way, I have been working many technologies.
 
-Besides, I am also working as part time Go developer helping various companies building prototypes and projects.
+Besides, I am also working as freelance Go developer helping various companies building prototypes and projects in Go.
 
 ### Web Development
 
