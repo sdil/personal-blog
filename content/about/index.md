@@ -13,7 +13,7 @@ During my free time, I enjoy cooking with my wife and shredding my guitar \m/ Yo
 
 I have been working in **Content Delivery Network (CDN)** and Video Streaming industry for 3+ years and have been coding professionally in **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge. Along the way, I have been working many technologies.
 
-Besides, I am also working as freelance Go developer helping various companies building prototypes and projects in Go.
+Besides, I am also working as a freelance Go developer, helping various companies building prototypes and projects. I was involved in building an ecommerce app where me and my partner built the API server and I integrate it with local Malaysian payment gateway, iPay88. The tech stack was Go Gin and Firebase.
 
 ### Web Development
 
