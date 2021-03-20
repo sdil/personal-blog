@@ -57,7 +57,7 @@ This is during my university internship year
 ## 2016
 
 - Studied basic Java, PHP & MySQL in my university years.
-- Taught myself IBM Cloud, Cloudant & Cloud Foundry for dissertation project.
+- Developed a document management system with a team of 5 students using IBM Cloud, Cloudant & Cloud Foundry for our university dissertation project.
 
 ## 2011
 
