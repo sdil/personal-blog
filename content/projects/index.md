@@ -24,8 +24,6 @@ This service born out of frustration to handle my own tax for the past 3 years. 
 
 ### Raudhah Ilmi Dropship Centre - Nov 2020
 
-![raudhah ilmi](raudhahilmi.gif)
-
 This is a special project built for my lovely wife's bookshop.
 
 **Objective**: Dropship agents to be able to calculate shipping price, submit orders and track orders easily, even from a mobile phone.
