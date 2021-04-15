@@ -16,7 +16,7 @@ The points with (\*) are my favorites.
 - Taught myself beginner-level Elixir Phoenix framework. Published a simple benchmark [here](https://github.com/sdil/benchmark-frameworks). Tried to build several web apps and API servers using Phoenix but still not feeling productive with it yet.
 - Used Django REST Framework, Nuxt and TailwindCSS to build [Tax App](https://fadhil-blog.dev/projects/#tax-app---feb-2021)
 - Studied UI/UX by reading and watching [Refactoring UI by Adam Wathan & Steve Schoger](https://refactoringui.com/)
-- Taught myself basic security vulnerabilities (CSRF, XSS, SQL Injection)
+- Taught myself OWASP security vulnerabilities (CSRF, XSS, SQL Injection) and mitigations (CSRF Token, SameSite cookies, CSP)
 
 ## 2020
 
