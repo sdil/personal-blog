@@ -12,7 +12,7 @@ This is the list of weekend & side projects I did for fun and learning.
 
 ### Pharmacy App - March - Present 2021
 
-This is a freelance work I took with a team of 3 persons to build an app for a pharmaceutical company with e-commerce & doctor-on-call functionalities. I'm responsible for backend development built in Golang.
+This is a freelance work I took with a team of 3 persons to build an app for a pharmaceutical company with e-commerce & doctor-on-call functionalities. I'm responsible for backend development built in Golang and DevOps tasks.
 
 **Technologies Used**: Go Gin, Swaggo OpenAPI doc generator, iPay88 payment gateway, Meilisearch, Firestore, Firebase Auth, Caddy Webserver, GCP.
 
