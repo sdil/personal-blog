@@ -12,11 +12,13 @@ The points with (\*) are my favorites.
 
 ## 2021
 
-- \*Ship my first Golang code to production, an integration of an API server with a Malaysia payment gateway (iPay88). The API server is consumed by a mobile app.
+- \*Set up Meilisearch to enable searching on our Firestore database. Took a few hours to set up the Meilisearch instance and sync the data from Firestore to Meilisearch.
+- \*Shipped my first Golang code to production, integration of an API server with a Malaysia payment gateway (iPay88). The API server is consumed by a mobile app.
 - Taught myself beginner-level Elixir Phoenix framework. Published a simple benchmark [here](https://github.com/sdil/benchmark-frameworks). Tried to build several web apps and API servers using Phoenix but still not feeling productive with it yet.
 - Used Django REST Framework, Nuxt and TailwindCSS to build [Tax App](https://fadhil-blog.dev/projects/#tax-app---feb-2021)
 - Studied UI/UX by reading and watching [Refactoring UI by Adam Wathan & Steve Schoger](https://refactoringui.com/)
 - Taught myself OWASP security vulnerabilities (CSRF, XSS, SQL Injection) and mitigations (CSRF Token, SameSite cookies, CSP)
+- Other techs I taught myself: Supabase
 
 ## 2020
 

@@ -6,21 +6,27 @@ draft: false
 toc: true
 ---
 
-These are the list of weekend projects I did for fun and learning.
+This is the list of weekend & side projects I did for fun and learning.
 
 ## Commercial Projects
+
+### Pharmacy App - March - Present 2021
+
+This is a freelance work I took with a team of 3 persons to build an app for a pharmaceutical company with e-commerce & doctor-on-call functionalities. I'm responsible for backend development built in Golang.
+
+**Technologies Used**: Go Gin, Swaggo OpenAPI doc generator, iPay88 payment gateway, Meilisearch, Firestore, Firebase Auth, Caddy Webserver, GCP.
 
 ### Tax App - Feb 2021
 
 ![Tax app](tax-app.gif)
 
-This service born out of frustration to handle my own tax for the past 3 years. Surprisingly, many people are in the same boat. See my [Twitter thread here](https://twitter.com/sdil/status/1356596620515704832).
+This app born out of frustration filing my tax for the past 3 years. Surprisingly, many people are in the same boat. See my [Twitter thread here](https://twitter.com/sdil/status/1356596620515704832).
 
 **Objective**: An app that helps commoners to manage tax better. Users can add/upload their income statement, their tax relief spendings and tax rebates to the system. We will calculate how much is their tax for that year and identify which tax relief categories are not fully utilized. The receipts/statements can be upload and stored for at least 7 years to comply to Malaysian's LHDN requirement.
 
 **Technologies Used**: Django Rest Framework, Nuxt, PWA, PostgreSQL, Heroku, Scout APM, Logentries (log aggregation), Raygun Error Tracking, Google Social Login
 
-**Outcomes**: The project is finished and used by me, close friends and family as I do not have capacity to support and maintain for public audience. I might be commercialize this product in the future.
+**Outcomes**: The project is finished and used by me, close friends and family as I do not have capacity to support and maintain for public audience. I might commercialize this product in the future.
 
 ### Raudhah Ilmi Dropship Centre - Nov 2020
 
