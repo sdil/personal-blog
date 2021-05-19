@@ -18,7 +18,7 @@ The points with (\*) are my favorites.
 - Used Django REST Framework, Nuxt and TailwindCSS to build [Tax App](https://fadhil-blog.dev/projects/#tax-app---feb-2021)
 - Studied UI/UX by reading and watching [Refactoring UI by Adam Wathan & Steve Schoger](https://refactoringui.com/)
 - Taught myself OWASP security vulnerabilities (CSRF, XSS, SQL Injection) and mitigations (CSRF Token, SameSite cookies, CSP)
-- Other techs I taught myself: Supabase
+- Other techs I taught myself: Supabase, Chakra UI, Tailwind
 
 ## 2020
 
