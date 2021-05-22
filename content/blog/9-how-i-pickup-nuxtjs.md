@@ -5,7 +5,7 @@ slug: "relearn-js"
 description: "My journey to relearn JavaScript after so many years and how you can start too"
 keywords: ["Vue", "Nuxt", "Frontend", "Programming"]
 draft: false
-tags: ["Nuxt", "Frontend"]
+tags: ["Nuxt"]
 math: false
 toc: true
 ---
