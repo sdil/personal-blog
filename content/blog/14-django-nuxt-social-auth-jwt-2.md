@@ -2,7 +2,7 @@
 title: "How to Build Google Social Login in Django Rest Framework and Nuxt Auth and Refresh its JWT token Part 2"
 date: 2020-12-01
 slug: "django-nuxt-social-auth-jwt-2"
-description: "Build end-to-end Social Login screen in Nuxt & Django Part 2"
+description: "Refreshing JWT Token and recommended settings for production environment"
 keywords: ["Python", "Nuxt", "JWT", "DRF", "Django Rest Framework"]
 draft: false
 tags: ["Python", "Nuxt", "JWT"]
