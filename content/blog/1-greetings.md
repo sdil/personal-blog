@@ -5,7 +5,7 @@ slug: "greetings"
 description: "Hi there!"
 keywords: ["work"]
 draft: false
-tags: ["work", "onapp"]
+tags: ["career"]
 math: false
 toc: false
 ---

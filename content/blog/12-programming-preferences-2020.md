@@ -5,7 +5,7 @@ slug: "programming-preferences-2020"
 description: "Personal technology preferences after building many projects in the past"
 keywords: ["Preferences", "Programming"]
 draft: false
-tags: ["Preferences", "Programming"]
+tags: []
 math: false
 ---
 

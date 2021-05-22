@@ -3,9 +3,9 @@ title: "I am relearning JS"
 date: 2020-04-21
 slug: "relearn-js"
 description: "My journey to relearn JavaScript after so many years and how you can start too"
-keywords: ["VueJS", "NuxtJS", "Frontend", "Programming"]
+keywords: ["Vue", "Nuxt", "Frontend", "Programming"]
 draft: false
-tags: ["VueJS", "Frontend", "Programming"]
+tags: ["Nuxt", "Frontend"]
 math: false
 toc: true
 ---

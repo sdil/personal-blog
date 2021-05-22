@@ -5,7 +5,7 @@ slug: "envision-career"
 description: "How I Envision My Future In the Next 10 Years as a 25 Years Old Software Engineer"
 keywords: ["Career", "Programming"]
 draft: false
-tags: ["Career", "Programming"]
+tags: ["Career"]
 math: false
 toc: true
 ---

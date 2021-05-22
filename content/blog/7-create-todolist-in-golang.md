@@ -5,7 +5,7 @@ slug: "golang-todolist"
 description: "Build a Todolist API Server in Golang"
 keywords: ["Golang", "Programming"]
 draft: false
-tags: ["Golang", "Programming"]
+tags: ["Golang"]
 math: false
 toc: true
 ---
