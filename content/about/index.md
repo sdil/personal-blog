@@ -22,7 +22,7 @@ I have experience in developing:
 - Monolithic web services using [Django](/tags/django/), [Go Gin](/tags/golang/) and Java Spring in production.
 - Microservices using Flask, FastAPI for side projects.
 - Serverless Function as a Service (FaaS) using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront.
-- Web frontend using [VueJS & NuxtJS](/tags/vuejs/), jQuery, Bulma & Bootstrap and Tailwind.
+- Web frontend using [VueJS & NuxtJS](/tags/vuejs/), jQuery, Bulma, Bootstrap and Tailwind.
 - Other technologies/services: Firebase Auth, GraphQL, APM using Scout APM, Raygun & Sentry for error tracking, Logentries, Heroku.
 
 ### DevOps
