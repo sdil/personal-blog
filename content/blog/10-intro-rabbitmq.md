@@ -5,7 +5,7 @@ slug: "intro-rabbitmq"
 description: "An Introduction to Message Queues With RabbitMQ and Python"
 keywords: ["Python", "Programming", "Message Queue"]
 draft: false
-tags: ["Python", "Programming", "Message Queue"]
+tags: ["Python", "Message Queue"]
 math: false
 toc: true
 ---

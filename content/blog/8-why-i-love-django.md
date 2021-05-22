@@ -5,7 +5,7 @@ slug: "love-django"
 description: "Why I Love Django After Building a Web App for 3 Months"
 keywords: ["Django", "Programming", "Python"]
 draft: false
-tags: ["Django", "Programming", "Python"]
+tags: ["Django", "Python"]
 math: false
 toc: true
 ---
