@@ -12,6 +12,8 @@ This is the list of weekend & side projects I did for fun and learning.
 
 ### Pharmacy App - March - Present 2021
 
+![Pharmacy app](foresight.gif)
+
 This is a freelance project I work with a team of 3 persons.
 
 **Objective**: Build an app for a pharmaceutical company with e-commerce & doctor-on-call functionalities. I'm responsible for backend development built in Golang and DevOps tasks.
@@ -32,7 +34,9 @@ This app born out of frustration filing my tax for the past 3 years. Surprisingl
 
 ### Raudhah Ilmi Dropship Centre - Nov 2020
 
-This is a special project built for my lovely wife's bookshop. 
+![Raudhah Ilmi](raudhahilmi.gif)
+
+This is a special project built for my lovely wife's bookshop.
 
 **Objective**: Dropship agents to be able to calculate shipping price, submit orders and track orders easily, even from a mobile phone.
 
