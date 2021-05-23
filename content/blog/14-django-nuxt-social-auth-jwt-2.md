@@ -5,7 +5,7 @@ slug: "django-nuxt-social-auth-jwt-2"
 description: "Refreshing JWT Token and recommended settings for production environment"
 keywords: ["Python", "Nuxt", "JWT", "DRF", "Django Rest Framework"]
 draft: false
-tags: ["Python", "Nuxt", "JWT"]
+tags: ["Python", "Django", "Nuxt", "JWT"]
 math: false
 toc: true
 ---

@@ -5,7 +5,7 @@ slug: "django-nuxt-social-auth-jwt-1"
 description: "Build end-to-end Social Login screen in Nuxt & Django"
 keywords: ["Python", "Nuxt", "JWT", "DRF", "Django Rest Framework"]
 draft: false
-tags: ["Python", "Nuxt", "JWT"]
+tags: ["Python", "Django", Nuxt", "JWT"]
 math: false
 toc: true
 ---
