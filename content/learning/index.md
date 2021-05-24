@@ -15,7 +15,7 @@ The points with (\*) are my favorites.
 - \*Set up Meilisearch to enable searching on our Firestore database. Took a few hours to set up the Meilisearch instance and sync the data from Firestore to Meilisearch.
 - \*Shipped my first Golang code to production, integration of an API server with a Malaysia payment gateway (iPay88). The API server is consumed by a mobile app.
 - Taught myself beginner-level Elixir Phoenix framework. Published a simple benchmark [here](https://github.com/sdil/benchmark-frameworks). Tried to build several web apps and API servers using Phoenix but still not feeling productive with it yet.
-- Used Django REST Framework, Nuxt and TailwindCSS to build [Tax App](https://fadhil-blog.dev/projects/#tax-app---feb-2021)
+- Used Django REST Framework, Nuxt and TailwindCSS to build [Tax App](/projects/#tax-app---feb-2021)
 - Studied UI/UX by reading and watching [Refactoring UI by Adam Wathan & Steve Schoger](https://refactoringui.com/)
 - Taught myself OWASP security vulnerabilities (CSRF, XSS, SQL Injection) and mitigations (CSRF Token, SameSite cookies, CSP)
 - Other techs I taught myself: Supabase, Chakra UI, Tailwind
@@ -26,7 +26,7 @@ The points with (\*) are my favorites.
 - *Taught myself beginner-level Nuxt & Vue
   - Built many web JAMstack projects together with Django REST Framework
 - Taught myself PostgreSQL and CockroachDB. Learned a bit of DB knowledges like compaction, Write Ahead Logs (WAL), RocksDB storage engine, indexing, materialized views, etc.
-- Taught myself AWS products eg. DynamoDB, S3, Lambda, APIGW, CDK, RDS, etc. Built [Voting Serverless App](https://fadhil-blog.dev/projects/#voting-serverless---aug-2020) using these techs. Learned DynamoDB single-table pattern.
+- Taught myself AWS products eg. DynamoDB, S3, Lambda, APIGW, CDK, RDS, etc. Built [Voting Serverless App](/projects/#voting-serverless---aug-2020) using these techs. Learned DynamoDB single-table pattern.
 - Taught myself GCP products eg. GCS, BigQuery, Data Studio, GCR, Cloud Build, etc.
 - Studied programming theories like Domain Driven Development, Dependency Injection, Event Sourcing, CQRS, Saga pattern, Design Patterns, [Microservice](https://microservices.io/) architecture, Port & Adapter pattern, Clean architecture pattern, etc.
 - Other techs I taught myself: GraphQL client, Firebase Auth, Stripe integration (Billing & Payments), Hasura, Hashicorp Nomad
@@ -34,7 +34,7 @@ The points with (\*) are my favorites.
 ## 2019
 
 - *Taught myself intermediate-level Kubernetes
-  - Wrote a Proof of Concept Kubernetes CSI-compatible storage controller based on [Rancher Local Path Provisioner](https://fadhil-blog.dev/blog/rancher-local-path-provisioner/).
+  - Wrote a Proof of Concept Kubernetes CSI-compatible storage controller based on [Rancher Local Path Provisioner](/blog/rancher-local-path-provisioner/).
   - Plan, set up & manage multiple on-prem edge clusters
 - Taught myself basic AWS & GCP cloud. Taking A Cloud Guru courses.
 - Taught myself basic Go. Built non-production web apps using Echo & Gin web framework.
