@@ -3,14 +3,14 @@ title: "How I would have built Malaysia’s AstraZeneca Vaccine website"
 date: 2021-05-27
 slug: "how-i-would-built-malaysia-az-site"
 description: "Personal technology preferences after building many projects in the past"
-keywords: []
+keywords: ["architecture", "cdn", "golang"]
 draft: false
-tags: []
+tags: ["golang", "architecture", "devops", "cdn"]
 math: false
 toc: true
 ---
 
-This article is inspired by Jonathan Lin’s post on the same topic and how Nike handles their Sneaker Drop sale.
+This article is inspired by [Jonathan Lin’s post](https://joncloudgeek.com/blog/architecting-astrazeneca-vaccine-booking-site/) on the same topic and [how Nike handles their Sneaker Drop sale](https://luis-sena.medium.com/using-redis-to-build-a-realtime-nike-sneakers-drop-app-backend-b0bd0fef7056).
 
 ## Background
 
@@ -22,7 +22,7 @@ At the end of the session, everyone was frustrated with the experience. There we
 
 When a user opens the registration website, the user will fill in personal details. Then the user must select the state, location & time for their vaccination slot. Finally, the user will submit their form.
 
-The main issue happens at step #2. In order for the user to select the state, the browser will request the latest list of available slots at http://api.vaksincovid.gov.my/az/?action=listppv. This API endpoint was choking at 12 pm and only works intermittently.
+The main issue happens at step #2. In order for the user to select the state, the browser will request the latest list of available slots at `http://api.vaksincovid.gov.my/az/?action=listppv`. This API endpoint was choking at 12 pm and only works intermittently.
 I have written in length about that issue in my Twitter thread
 
 ## Assumptions & Scoping
@@ -34,7 +34,7 @@ There were 1M vaccination slot available across the country
 
 Given that there’s a 1M vaccination slot, so there’ll be around 1M database writes that will happen in the span of 1 and half hours (they close the registration after 90 minutes). That would be roughly 185 requests per second on average. However, it’s impossible to assume that the traffic is even in that period. We’ll assume the peak traffic 5X of that number, which comes to 925 requests per second.
 
-Assuming 3M users are waiting to use the system, let’s assume that there’ll be 10% of the users are hitting the refresh page at the same time every second for the first few seconds of the launching. There’ll be probably 300,000 requests per second on that listppv endpoint. That’s a lot of RPS. For reference, AWS Cloudfront CDN handled 200M requests per second at peak during Black Friday 2020.
+Assuming 3M users are waiting to use the system, let’s assume that there’ll be 10% of the users are hitting the refresh page at the same time every second for the first few seconds of the launching. There’ll be probably 300,000 requests per second on that listppv endpoint. That’s a lot of RPS. For reference, [AWS Cloudfront CDN handled 200M requests per second at peak during Black Friday 2020](https://aws.amazon.com/blogs/aws/amazon-prime-day-2020-powered-by-aws/).
 
 ## Tolerance
 
@@ -63,7 +63,7 @@ I personally have no better idea than using CDN to serve listppv endpoint. It’
 
 ### Backend API
 
-Backend API should be written in Go for its speed. Check out how Randall Degges serve 10,000 requests per second with only several dynos on Heroku.
+Backend API should be written in Go for its speed. Check out how [Randall Degges serve 10,000 requests per second with only several dynos on Heroku](https://blog.heroku.com/scaling-ipify-to-30-billion-and-beyond).
 
 As the GET listppv requests are mainly handled by CDN, our Backend API will only be busy handling writes. As written in the ‘Assumption & Scoping’ section above, we expect to handle 925 requests per second, which is peanuts for a Go server.
 For the deployment, I prefer to use Platform as a Service or Container as a Service for simplicity and developer productivity. Any options will do eg. Google Cloud Run, AWS AppRunner, Heroku, etc.
@@ -72,7 +72,7 @@ However, it’s important to do capacity planning. It’s important to stress te
 
 ### Database
 
-To handle 925 transactions per second at peak, I personally think that a regular relational database is able to handle this traffic provided that the server is tuned correctly. However, I’m going to use only the Redis in-memory database as the datastore as it’s built for speed. This is heavily inspired by this article.
+To handle 925 transactions per second at peak, I personally think that a regular relational database is able to handle this traffic provided that the server is tuned correctly. However, I’m going to use only the Redis in-memory database as the datastore as it’s built for speed. This is heavily inspired by [this article](https://luis-sena.medium.com/using-redis-to-build-a-realtime-nike-sneakers-drop-app-backend-b0bd0fef7056).
 
 Assuming that there are 1M user records and each record is 4KB on average, the total storage required for storing all the records is about 4GB which fits in RAM in most Redis servers. Redis servers should be set up with replication and/or AOF data persistence to avoid data loss.
 
