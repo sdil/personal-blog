@@ -34,7 +34,7 @@ There were 1M vaccination slot available across the country
 
 Given that there’s a 1M vaccination slot, so there’ll be around 1M database writes that will happen in the span of 1 and half hours (they close the registration after 90 minutes). That would be roughly 185 requests per second on average. However, it’s impossible to assume that the traffic is even in that period. We’ll assume the peak traffic 5X of that number, which comes to 925 requests per second.
 
-Assuming 3M users are waiting to use the system, let’s assume that there’ll be 10% of the users are hitting the refresh page at the same time every second for the first few seconds of the launching. There’ll be probably 300,000 requests per second on that listppv endpoint right. That’s a lot of RPS. For reference, AWS Cloudfront CDN handled 200M requests per second at peak during Black Friday 2020.
+Assuming 3M users are waiting to use the system, let’s assume that there’ll be 10% of the users are hitting the refresh page at the same time every second for the first few seconds of the launching. There’ll be probably 300,000 requests per second on that listppv endpoint. That’s a lot of RPS. For reference, AWS Cloudfront CDN handled 200M requests per second at peak during Black Friday 2020.
 
 ## Tolerance
 
@@ -43,6 +43,8 @@ Let’s assume that we can tolerate stale data for a little duration for served 
 ## Architecture
 
 ### Overview
+
+![Architecture](/blog/15/1-architecture.png)
 
 These are the components of this system. Whenever designing a system, always design for scalability, security, and cost-effectiveness. This architecture aims for that.
 
@@ -83,8 +85,8 @@ availability:pwtc:20210528 1000
 availability:pwtc:20210527 1000
 
 # User
-user:<uuid> <hash data>
-user:abc123 firstname fadhil lastname yaacob location pwtc date 20210528
+user:<mysejahtera id> <hash data>
+user:850113021151 firstname fadhil lastname yaacob location pwtc date 20210528
 ```
 
 As most of the read operations are absorbed by CDN, our Redis servers are also now only busy processing forms, which is the ideal case.
@@ -105,6 +107,8 @@ When the first user request for listppv endpoint:
 - Our Backend API will query for Redis server for availability for related locations
 - Then the backend API will return the result to the CDN server
 - CDN server will cache the result in the CDN server with TTL 1 second, then only return to the user
+
+![Request handled by CDN](/blog/15/2-cached.png)
 
 To serve the cached API result, only CDN servers are responsible for it and it doesn't even hit our Backend API.
 

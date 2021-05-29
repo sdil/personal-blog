@@ -35,15 +35,18 @@ Even though Ingress is used to expose service to outside, Ingress is built for L
 ## Advantages & Disadvantages of External IP
 
 The advantage of using External IP are:
+
 - You have full control towards the IP that you use. You can use IP that belongs to your ASN instead of cloud provider's ASN.
 
 The disadvantage of External IP are:
+
 - The simple setup that we will go thru right now is **NOT** highly available. That means if the node dies, the service is no longer reachable and you'll need to manually remediate the issue.
 - There are some manual work needs to be done to manage the IPs. The IPs are not dynamically provisioned for you thus it require manual human intervention.
 
 ## How to use External IP service
 
 ### Our setup
+
 Again, we will use the same diagram as our reference for our cluster setup, except with different IP and different hostname. This is not a good real life example, but it's easy to distinguish which is which when we're verifying the setup. In real life example, you might want to expose MySQL DB on 1 external IP and Kafka cluster on another external IP.
 
 ![enter image description here](/blog/5/kubernetes-external-ip-demo.png)
@@ -51,14 +54,17 @@ Again, we will use the same diagram as our reference for our cluster setup, exce
 I have provisioned 2 VMs for this tutorial. `k3s-external-ip-master` will be our Kubernetes master node and has IP of 1.2.4.120. `k3s-external-ip-worker` will be Kubernetes worker and has IP of 1.2.4.114.
 
 ### Step 1: Setup Kubernetes cluster
+
 Lets install k3s on the master node and let another node to join the cluster.
-```
+
+```shell
 $ k3sup install --ip <master node ip> --user <username>
 $ k3sup join --server-ip <master node ip> --ip <worker node ip> --user <username>
 ```
 
 You should be seeing something like this now
-```
+
+```shell
 $ kubectl get nodes
 NAME                                 STATUS   ROLES    AGE     VERSION
 k3s-external-ip-master               Ready    master   7m24s   v1.16.3-k3s.2
@@ -66,14 +72,17 @@ k3s-external-ip-worker               Ready    <none>   2m21s   v1.16.3-k3s.2
 ```
 
 ### Step 2: Create Kubernetes deployments
+
 We will create nginx deployment and httpd deployment.
-```
+
+```shell
 $ kubectl create deployment nginx --image=nginx
 $ kubectl create deployment httpd --image=httpd
 ```
 
 You should be seeing this now
-```
+
+```shell
 $ kubectl get pods
 NAME                     READY   STATUS    RESTARTS   AGE
 nginx-86c57db685-fzxn5   1/1     Running   0          22s
@@ -81,8 +90,10 @@ httpd-7bddd4bd85-zk8ks   1/1     Running   0          16s
 ```
 
 ### Step 3: Expose the deployments as External IP type
+
 Lets expose the nginx deployment
-```
+
+```shell
 $ cat << EOF > nginx-service.yaml
 apiVersion: v1
 kind: Service
@@ -100,8 +111,10 @@ spec:
     - 1.2.4.114
 EOF
 ```
+
 And expose httpd deployment
-```
+
+```shell
 $ cat << EOF > httpd-service.yaml
 apiVersion: v1
 kind: Service
@@ -121,13 +134,15 @@ EOF
 ```
 
 Kubectl them
-```
+
+```shell
 $ kubectl create -f nginx-service.yaml
 $ kubectl create -f httpd-service.yaml
 ```
 
 Now your Kubernetes services should look like this
-```
+
+```shell
 $ kubectl get svc
 NAME            TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)   AGE
 kubernetes      ClusterIP   10.43.0.1       <none>        443/TCP   18m
@@ -138,8 +153,10 @@ nginx-service   ClusterIP   10.43.13.149    1.2.4.114     80/TCP    26s
 You might see the service type is ClusterIP here. I am not sure why it does not says External IP instead.
 
 ### Step 4: Voila!
+
 Lets curl the httpd service and you should see the Apache default page response.
-```
+
+```shell
 $ curl -i 1.2.4.120
 HTTP/1.1 200 OK
 Date: Fri, 20 Dec 2019 03:36:23 GMT
@@ -154,7 +171,8 @@ Content-Type: text/html
 ```
 
 Next, lets curl nginx service and you should see nginx default page response.
-```
+
+```shell
 $ curl -i 1.2.4.114
 HTTP/1.1 200 OK
 Server: nginx/1.17.6 <------
@@ -174,7 +192,9 @@ Accept-Ranges: bytes
 ```
 
 ## What's next
+
 ### Floating IP dedicated for the service
+
 Most cloud providers nowadays offer Floating IP service. Floating IP allows you to have 1 IP and assign that IP dynamically to any IP that you want. In this case, the IP can be assigned to any worker node in the Kubernetes cluster.
 
 In DigitalOcean (I believe other providers also allow this), you can reassign the IP to other VM using API call. This means that you can quickly reassign the IP to other VM proactively when they're down, or maybe rotate the IP periodically. 
@@ -186,12 +206,15 @@ From the diagram, we can have 1 Floating IP 1.2.3.6 that is first assigned to No
 I have not try this setup yet so I can't confirm it works. I will update the result in future blog post.
 
 ### Anycast IP
+
 ![Anycast setup](/blog/5/anycast.png)
 
 You could use Anycast IP as External IP so that they are highly available. For those who are not familiar with Anycast IP, it means that 1 IP may be routed to 2 or more servers. You can read more [here](https://en.wikipedia.org/wiki/Anycast). Personally, I am not really sure how to setup this. However, I believe it is technically viable. I think this is the best way to run External IP service.
 
 ## Conclusion
+
 There are many options that you can get a IP for bare metal Kubernetes cluster. For example, you can use Inlets and Metal LB for that purpose. This setup might not be the best suit your organization needs. However, it is good to know how you can use this approach.
 
 ### Disclaimer
+
 I only use this for experimentation and testing and this article is not meant for production use. Please consult your solution architect or CTO if you're planning to use this in production.
