@@ -7,6 +7,7 @@ keywords: []
 draft: false
 tags: []
 math: false
+toc: true
 ---
 
 This article is inspired by Jonathan Lin’s post on the same topic and how Nike handles their Sneaker Drop sale.
