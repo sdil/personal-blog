@@ -27,8 +27,7 @@ I have written in length about that issue in my Twitter thread
 
 ## Assumptions & Scoping
 
-There were 1M vaccination slot available across the country
-
+- There were 1M vaccination slot available across the country
 - Malaysia has ~30M population
 - Assuming 10% of the population are living in urban areas and fighting for the slot, we now have 3M users waiting to register themselves at 12 pm
 
