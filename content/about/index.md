@@ -13,7 +13,7 @@ During my free time, I enjoy cooking with my wife and shredding my guitar \m/ Yo
 
 I have been working on **Content Delivery Network (CDN)** and **Video Streaming** products for 3+ years at Onapp and have been coding professionally in **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge.
 
-Besides, I am also working as a **freelance Go developer**, helping various companies building prototypes and [projects](/projects/#pharmacy-app---march---present-2021).
+Besides, I was also working as a **freelance Go developer**, helping companies building prototypes and [projects](/projects/#pharmacy-app---march---present-2021).
 
 ## Skills
 

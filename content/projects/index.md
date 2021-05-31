@@ -10,7 +10,7 @@ This is the list of weekend & side projects I did for fun and learning.
 
 ## Commercial Projects
 
-### Pharmacy App - March - Present 2021
+### Pharmacy App - March til June 2021
 
 ![Pharmacy app](foresight.gif)
 
