@@ -46,6 +46,14 @@ This is a special project built for my lovely wife's bookshop.
 
 These are my open source projects published on Github.
 
+### JKJAV API Server - June 2021
+
+View the source code [here](https://github.com/sdil/jkjav-server).
+
+**Objective**: Build a POC API Server for JKJAV system that is able to handle high reads (300k RPS) & writes loads (~900 RPS). However, after deployed on Railways PaaS it only able to serve up to 400 RPS.
+
+**Technologies User**: Go Fiber, Redis, Railway PaaS Hosting
+
 ### Phoenix NuxtJS Todolist (Abandoned) - Jan 2021
 
 Visit the project [here](https://todo-app-phoenix-nuxtjs.vercel.app/todo). View the source code [here](https://github.com/sdil/todo-app-phoenix-nuxtjs). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1349369045284311044).
