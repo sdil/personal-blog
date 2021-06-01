@@ -52,7 +52,7 @@ View the source code [here](https://github.com/sdil/jkjav-server).
 
 **Objective**: Build a POC API Server for JKJAV system that is able to handle high reads (300k RPS) & writes loads (~900 RPS). However, after deployed on Railways PaaS it only able to serve up to 400 RPS.
 
-**Technologies User**: Go Fiber, Redis, Railway PaaS Hosting
+**Technologies Used**: Go Fiber, Redis, Railway PaaS Hosting
 
 ### Phoenix NuxtJS Todolist (Abandoned) - Jan 2021
 
