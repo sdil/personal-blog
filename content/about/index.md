@@ -21,7 +21,7 @@ Besides, I was also working as a **freelance Go developer**, helping companies b
 
 I have experience in developing:
 
-- Monolithic web services using [Django](/tags/django/), [Go Gin](/tags/golang/) and Java Spring in production.
+- Monolithic web services using [Django](/tags/django/), [Go](/tags/golang/) and Java Spring in production.
 - Microservices using Flask, FastAPI for side projects.
 - Serverless Function as a Service (FaaS) using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront.
 - Web frontend using [Vue & Nuxt](/tags/nuxt/), jQuery, Bulma, Bootstrap and Tailwind.

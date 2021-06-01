@@ -50,9 +50,11 @@ These are my open source projects published on Github.
 
 View the source code [here](https://github.com/sdil/jkjav-server).
 
+During COVID-19 pandemic, Malaysia government (JKJAV agency) opens up a registration for vaccine slot. However, the website goes horribly wrong and unable to handle large crowds. It's described in this [blog post](/blog/how-i-would-built-malaysia-az-site/).
+
 **Objective**: Build a POC API Server for JKJAV system that is able to handle high reads (300k RPS) & writes loads (~900 RPS). However, after deployed on Railways PaaS it only able to serve up to 400 RPS.
 
-**Technologies Used**: Go Fiber, Redis, Railway PaaS Hosting
+**Technologies Used**: Go Fiber, Redis, Swagger OpenAPI doc, Railway PaaS Hosting
 
 ### Phoenix NuxtJS Todolist (Abandoned) - Jan 2021
 
