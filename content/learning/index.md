@@ -28,9 +28,10 @@ The points with (\*) are my favorites.
   - Built many web JAMstack projects together with Django REST Framework
 - Taught myself PostgreSQL and CockroachDB. Learned a bit of DB knowledges like compaction, Write Ahead Logs (WAL), RocksDB storage engine, indexing, materialized views, etc.
 - Taught myself AWS products eg. DynamoDB, S3, Lambda, APIGW, CDK, RDS, etc. Built [Voting Serverless App](/projects/#voting-serverless---aug-2020) using these techs. Learned DynamoDB single-table pattern.
+- Taught myself GraphQL client. Built a simple [chat app](/projects/#chat-app---oct-2020) that utilizes GraphQL query, mutations and subscriptions. It's built using Hasura and Nuxt.
 - Taught myself GCP products eg. GCS, BigQuery, Data Studio, GCR, Cloud Build, etc.
 - Studied programming theories like Domain Driven Development, Dependency Injection, Event Sourcing, CQRS, Saga pattern, Design Patterns, [Microservice](https://microservices.io/) architecture, Port & Adapter pattern, Clean architecture pattern, etc.
-- Other techs I taught myself: GraphQL client, Firebase Auth, Stripe integration (Billing & Payments), Hasura, Hashicorp Nomad
+- Other techs I taught myself: Firebase Auth, Stripe integration (Billing & Payments), Hasura, Hashicorp Nomad
 
 ## 2019
 
