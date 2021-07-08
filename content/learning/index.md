@@ -12,7 +12,7 @@ The points with (\*) are my favorites.
 
 ## 2021
 
-- Learn B-tree and B\* tree data structure, database indexing and optimization
+- Learn B-tree and B\* tree data structure, database indexing and optimization, database transaction and isolation levels
 - Learn Ruby on Rails for my new job
 - \*Built a POC API server for [JKJAV website](/blog/how-i-would-built-malaysia-az-site/) using Redis and Go Fiber
 - \*Set up Meilisearch to enable searching on our Firestore database. Took a few hours to set up the Meilisearch instance and sync the data from Firestore to Meilisearch.
