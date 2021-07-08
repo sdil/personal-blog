@@ -12,6 +12,8 @@ The points with (\*) are my favorites.
 
 ## 2021
 
+- Learn B-tree and B\* tree database structure and database index
+- Learn Ruby on Rails for my new job
 - \*Built a POC API server for [JKJAV website](/blog/how-i-would-built-malaysia-az-site/) using Redis and Go Fiber
 - \*Set up Meilisearch to enable searching on our Firestore database. Took a few hours to set up the Meilisearch instance and sync the data from Firestore to Meilisearch.
 - \*Shipped my first Golang code to production, integration of an API server with a Malaysia payment gateway (iPay88). The API server is consumed by a mobile app.
