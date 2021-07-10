@@ -13,7 +13,7 @@ The points with (\*) are my favorites.
 ## 2021
 
 - Learn B-tree and B\* tree data structure, database indexing and optimization, database transaction and isolation levels
-- Learn Ruby on Rails for my new job
+- Learn Ruby on Rails and its design patterns (Presenter, Service, Concern) for my new day job
 - \*Built a POC API server for [JKJAV website](/blog/how-i-would-built-malaysia-az-site/) using Redis and Go Fiber
 - \*Set up Meilisearch to enable searching on our Firestore database. Took a few hours to set up the Meilisearch instance and sync the data from Firestore to Meilisearch.
 - \*Shipped my first Golang code to production, integration of an API server with a Malaysia payment gateway (iPay88). The API server is consumed by a mobile app.
@@ -37,18 +37,19 @@ The points with (\*) are my favorites.
 
 ## 2019
 
-- *Taught myself intermediate-level Kubernetes
+- \*Taught myself intermediate-level Kubernetes
   - Wrote a Proof of Concept Kubernetes CSI-compatible storage controller based on [Rancher Local Path Provisioner](/blog/rancher-local-path-provisioner/).
   - Plan, set up & manage multiple on-prem edge clusters
-- Taught myself basic AWS & GCP cloud. Taking A Cloud Guru courses.
-- Taught myself basic Go. Built non-production web apps using Echo & Gin web framework.
+- Taught myself basic AWS & GCP cloud. Taking A Cloud Guru courses
+- Taught myself basic Go. Built non-production web apps using Echo & Gin web framework
 - Other techs I taught myself: Ansible
 
 ## 2018
 
 I'm working as a full-time SWE
 
-- *Taught myself basics of message brokering & how asynchronous, microservice system works. It radically changed my views on how scalable systems are built.
+- \*Taught myself basics of message brokering & how asynchronous, microservice system works. It radically changed my views on how scalable systems are built.
+- Learned about Python concurrency, multithreading and multiprocessing. Encountered a problem with Global Interpreter Lock (GIL) and solved it by not sharing a variable between the threads
 - Taught myself DevOps tools like Puppet, Grafana, Netdata, etc.
 - Other techs I taught myself: InfluxDB, Nginx Lua, MongoDB, etc.
 
@@ -56,8 +57,8 @@ I'm working as a full-time SWE
 
 This is during my university internship year
 
-- *Taught myself Python. Wrote my first unit tests. Fell in love with Python ever since.
-- *Taught myself Docker. My personal development process has changed ever since.
+- \*Taught myself Python. Wrote my first unit tests. Fell in love with Python ever since.
+- Taught myself Docker. My personal development process has changed ever since.
 - Other techs I taught myself: Java Spring & Hibernate, Behavioral Testing with Ruby Cucumber, CI/CD with Jenkins, Elastic stack
 
 ## 2016
