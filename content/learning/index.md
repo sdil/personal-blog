@@ -12,6 +12,8 @@ The points with (\*) are my favorites.
 
 ## 2021
 
+I quit my job at Onapp KL
+
 - Learn B-tree and B\* tree data structure, database indexing and optimization, database transaction and isolation levels
 - Learn Ruby on Rails and its design patterns (Presenter, Service, Concern) for my new day job
 - \*Built a POC API server for [JKJAV website](/blog/how-i-would-built-malaysia-az-site/) using Redis and Go Fiber
@@ -25,8 +27,8 @@ The points with (\*) are my favorites.
 
 ## 2020
 
-- *Taught myself intermediate-level Django & Django REST Framework. Loving this framework.
-- *Taught myself beginner-level Nuxt & Vue
+- \*Taught myself intermediate-level Django & Django REST Framework. Loving this framework.
+- \*Taught myself beginner-level Nuxt & Vue
   - Built many web JAMstack projects together with Django REST Framework
 - Taught myself PostgreSQL and CockroachDB. Learned a bit of DB knowledges like compaction, Write Ahead Logs (WAL), RocksDB storage engine, indexing, materialized views, etc.
 - Taught myself AWS products eg. DynamoDB, S3, Lambda, APIGW, CDK, RDS, etc. Built [Voting Serverless App](/projects/#voting-serverless---aug-2020) using these techs. Learned DynamoDB single-table pattern.
@@ -46,7 +48,7 @@ The points with (\*) are my favorites.
 
 ## 2018
 
-I'm working as a full-time SWE
+I started working as a full-time SWE at Onapp KL
 
 - \*Taught myself basics of message brokering & how asynchronous, microservice system works. It radically changed my views on how scalable systems are built.
 - Learned about Python concurrency, multithreading and multiprocessing. Encountered a problem with Global Interpreter Lock (GIL) and solved it by not sharing a variable between the threads
