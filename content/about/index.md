@@ -11,9 +11,31 @@ During my free time, I enjoy cooking with my wife and shredding my guitar \m/ Yo
 
 ## Work Experiences
 
-I have been working on **Content Delivery Network (CDN)** and **Video Streaming** products for 4+ years at Onapp and have been coding professionally in **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge.
+### Contract Software Engineer, Codepro - 2021
 
-Besides, I was also working as a **freelance Go developer**, helping companies building prototypes and [projects](/projects/#pharmacy-app---march---present-2021).
+Work on freelance project with a group of 3 developers to build a [projects](/projects/#pharmacy-app---march---present-2021)app for a client.
+
+#### Career Highlights
+
+- Integrate the backend API service with a ipay88 payment gateway using Go
+- Setup CI/CD pipeline using Gitlab CI
+- Deployed Caddy web server for reverse proxy
+
+### Software Engineer, Onapp - 2016 - 2021
+
+Working on **Content Delivery Network (CDN)** and **Video Streaming** products using **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge. 
+
+#### Career Highlights
+
+- Lead a team of 3 developers to build a VOD feature into our OTT platform in Django
+- Lead a team of 3 developers to rewrite our Django app frontend with a new internal UI Kit
+- Lead a team of 5 developers to build a monitoring and data analytic features. Successfully deployed to over 400 edge servers globally
+- Setup on-prem Kubernetes clusters and implement GitOps for our Django app to improve developers productivity
+- Setup data analytic pipelines using RabbitMiQ, Syslog BigQuery and Elasticsearch, ingesting over 1GB of log data per day
+- Setup internal monitoring system for 400 of our edge servers using Grafana, InfluxDB and Netdata
+- Appointed as **Technical Account Manager (TAM)** for 3 key CDN customers
+- Trained our support teams in Utah, USA and Lviv, Ukraine with CDN & OTT technologies
+- Mentored 2 new comers in the team
 
 ## Skills
 
