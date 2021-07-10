@@ -19,7 +19,10 @@ Work on freelance project with a group of 3 developers to build a [pharmacy](/pr
 
 - Integrated ipay88 payment gateway into our backend API service written in Go
 - Setup CI/CD pipeline using Gitlab CI
-- Deployed Caddy web server for reverse proxy
+- Deployed Caddy web server for microservices reverse proxy
+- Deployed Meilisearch for search engine
+
+Technologies used: Go Gin, Firebase, Caddy webserver, Meilisearch, Swaggo, Gitlab CI, Google Cloud
 
 ### Software Engineer, Onapp - 2016 - 2021
 
@@ -27,15 +30,20 @@ Working on **Content Delivery Network (CDN)** and **Video Streaming** products u
 
 #### Career Highlights
 
-- Lead a team of 3 developers to build a VOD feature into our OTT platform in Django
-- Lead a team of 3 developers to rewrite our Django app frontend with a new internal UI Kit
-- Lead a team of 5 developers to build a monitoring and data analytic features. Successfully deployed to over 400 edge servers globally
+- Lead a team of 4 developers and tester to:
+  - Build a VOD feature into our OTT platform in Django
+  - Integrated billing system with our Django app
+  - Rewrite our Django app frontend with a new internal UI Kit
+  - Build a log collection and data analytic feature. Successfully deployed to over 400 edge servers globally
 - Setup on-prem Kubernetes clusters and implement GitOps for our Django app to improve developers productivity
 - Setup data analytic pipelines using RabbitMiQ, Syslog BigQuery and Elasticsearch, ingesting over 1GB of log data per day
 - Setup internal monitoring system for 400 of our edge servers using Grafana, InfluxDB and Netdata
+- Involve in the effort to update our codebase from Python 2.7 to Python 3.5
 - Appointed as **Technical Account Manager (TAM)** for 3 key CDN customers
 - Trained our support teams in Utah, USA and Lviv, Ukraine with CDN & OTT technologies
 - Mentored 2 new comers in the team
+
+Technologies used: Django, Python, Kubernetes, MySQL, RabbitMQ, Apache Thrift, Puppet, Nginx, Elasticsearch, Grafana
 
 ## Skills
 
