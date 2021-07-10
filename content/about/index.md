@@ -13,11 +13,11 @@ During my free time, I enjoy cooking with my wife and shredding my guitar \m/ Yo
 
 ### Contract Software Engineer, Codepro - 2021
 
-Work on freelance project with a group of 3 developers to build a [projects](/projects/#pharmacy-app---march---present-2021)app for a client.
+Work on freelance project with a group of 3 developers to build a [pharmacy](/projects/#pharmacy-app---march---present-2021) app for a client.
 
 #### Career Highlights
 
-- Integrate the backend API service with a ipay88 payment gateway using Go
+- Integrated ipay88 payment gateway into our backend API service written in Go
 - Setup CI/CD pipeline using Gitlab CI
 - Deployed Caddy web server for reverse proxy
 
