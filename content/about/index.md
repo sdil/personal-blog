@@ -32,13 +32,13 @@ Working on **Content Delivery Network (CDN)** and **Video Streaming** products u
 
 - Lead a team of 4 developers and tester to:
   - Build a VOD feature into our OTT platform in Django
-  - Integrated billing system with our Django app
-  - Rewrite our Django app frontend with a new internal UI Kit
-  - Build a log collection and data analytic feature. Successfully deployed to over 400 edge servers globally
-- Setup on-prem Kubernetes clusters and implement GitOps for our Django app to improve developers productivity
-- Setup data analytic pipelines using RabbitMiQ, Syslog BigQuery and Elasticsearch, ingesting over 1GB of log data per day
-- Setup internal monitoring system for 400 of our edge servers using Grafana, InfluxDB and Netdata
-- Involve in the effort to update our codebase from Python 2.7 to Python 3.5
+  - Integrate an external billing system with our Django app
+  - Rewrite our Django app frontend with a new internal UI Kit and jQuery
+  - Build a log collection and data analytic feature and successfully deployed to over 400 edge servers globally
+- Setup on-prem Kubernetes clusters and implemented GitOps for our Django app to improve developers productivity
+- Setup data analytic pipelines using RabbitMQ, Syslog, BigQuery and Elasticsearch, ingesting over 1GB of log data per day
+- Setup internal monitoring system for 400 of our edge servers globally using Grafana, InfluxDB and Netdata
+- Involved in the effort to update our codebase from Python 2.7 to Python 3.5
 - Appointed as **Technical Account Manager (TAM)** for 3 key CDN customers
 - Trained our support teams in Utah, USA and Lviv, Ukraine with CDN & OTT technologies
 - Mentored 2 new comers in the team
@@ -51,11 +51,11 @@ Technologies used: Django, Python, Kubernetes, MySQL, RabbitMQ, Apache Thrift, P
 
 I have experience in developing:
 
-- Monolithic web services using [Django](/tags/django/), [Go](/tags/golang/) and Java Spring in production.
-- Microservices using Flask, FastAPI for side projects.
-- Serverless Function as a Service (FaaS) using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront.
-- Web frontend using [Vue & Nuxt](/tags/nuxt/), jQuery, Bulma, Bootstrap and Tailwind.
-- Other technologies/services: Firebase Auth, GraphQL, APM using Scout APM, Raygun & Sentry for error tracking, Logentries, Heroku.
+- Monolithic web services using [Django](/tags/django/), [Go](/tags/golang/), Flask and Java Spring in production
+- Microservices using FastAPI for side projects
+- Serverless Function as a Service (FaaS) using AWS CDK, Lambda, SQS, DynamoDB, API Gateway, S3, CloudFront
+- Web frontend using [Vue & Nuxt](/tags/nuxt/), jQuery, Bulma, Bootstrap and Tailwind
+- Other technologies/services: Firebase Auth, GraphQL, APM using Scout APM, Raygun & Sentry for error tracking, Logentries, Heroku
 
 ### DevOps
 
@@ -68,15 +68,15 @@ I have strong experience with the following technologies running in production:
 - Puppet configuration management
 - On-prem log aggregation using Grafana Loki
 - Monitoring System: Nagios, InfluxDB, Grafana and NetData
-- CI/CD tools: Jenkins, Google Cloud Build
-- Google Cloud Platform (GKE, GCE, BigQuery, Cloud Build, GCS & IAM)
+- CI/CD tools: Jenkins & Google Cloud Build
+- Google Cloud Platform (GKE, GCE, BigQuery, Cloud Build, GCS, GCR & IAM)
 
 I also have some experience with the following technologies:
 
 - [Ansible](https://github.com/sdil/learning/tree/master/ansible)
 - AWS
 - PostgreSQL
-- CircleCI
+- Gitlab CI
 
 ### Trainings & Certifications
 
