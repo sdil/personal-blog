@@ -12,7 +12,7 @@ The points with (\*) are my favorites.
 
 ## 2021
 
-I quit my job at Onapp KL
+I quit my job at Onapp KL after ~4 years working
 
 - Learn B-tree and B\* tree data structure, database indexing and optimization, database transaction and isolation levels
 - Learn Ruby on Rails and its design patterns (Presenter, Service, Concern) for my new day job
