@@ -24,7 +24,7 @@ Work on freelance project with a group of 3 developers to build a [pharmacy](/pr
 
 Technologies used: Go Gin, Firebase, Caddy webserver, Meilisearch, Swaggo, Gitlab CI, Google Cloud
 
-### Software Engineer, Onapp - 2016 - 2021
+### Software Engineer, Onapp - 2018 - 2021
 
 Working on **Content Delivery Network (CDN)** and **Video Streaming** products using **Python** during that period. I have a deep understanding of how CDN works in addition to web development and DevOps knowledge. 
 
