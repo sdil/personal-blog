@@ -14,8 +14,8 @@ The points with (\*) are my favorites.
 
 I quit my job at Onapp KL after ~4 years working
 
-- Learn B-tree and B\* tree data structure, database indexing and optimization, database transaction and isolation levels
-- Learn Ruby on Rails and its design patterns (Presenter, Service, Concern) for my new day job
+- Learned B-tree and B\* tree data structure, database indexing and optimization, database transaction and isolation levels
+- Re-learned Ruby on Rails (after 10 years) and its design patterns (Presenter, Service, Concern) for my new day job
 - \*Built a POC API server for [JKJAV website](/blog/how-i-would-built-malaysia-az-site/) using Redis and Go Fiber
 - \*Set up Meilisearch to enable searching on our Firestore database. Took a few hours to set up the Meilisearch instance and sync the data from Firestore to Meilisearch.
 - \*Shipped my first Golang code to production, integration of an API server with a Malaysia payment gateway (iPay88). The API server is consumed by a mobile app.

@@ -19,7 +19,7 @@ Work on freelance project with a group of 3 developers to build a [pharmacy](/pr
 
 - Integrated ipay88 payment gateway into our backend API service written in Go
 - Setup CI/CD pipeline using Gitlab CI
-- Deployed Caddy web server for microservices reverse proxy
+- Deployed Caddy web server
 - Deployed Meilisearch for search engine
 
 Technologies used: Go Gin, Firebase, Caddy webserver, Meilisearch, Swaggo, Gitlab CI, Google Cloud
@@ -36,9 +36,9 @@ Working on **Content Delivery Network (CDN)** and **Video Streaming** products u
   - Rewrite our Django app frontend with a new internal UI Kit and jQuery
   - Build a log collection and data analytic feature and successfully deployed to over 400 edge servers globally
 - Setup on-prem Kubernetes clusters and implemented GitOps for our Django app to improve developers productivity
-- Setup data analytic pipelines using RabbitMQ, Syslog, BigQuery and Elasticsearch, ingesting over 1GB of log data per day
+- Setup data analytic pipelines using Syslog and BigQuery ingesting over 1GB of log data per day
 - Setup internal monitoring system for 400 of our edge servers globally using Grafana, InfluxDB and Netdata
-- Involved in the effort to update our codebase from Python 2.7 to Python 3.5
+- Involved in an effort to update our codebase from Python 2.7 to Python 3.5
 - Appointed as **Technical Account Manager (TAM)** for 3 key CDN customers
 - Trained our support teams in Utah, USA and Lviv, Ukraine with CDN & OTT technologies
 - Mentored 2 new comers in the team
