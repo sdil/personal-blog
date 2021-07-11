@@ -6,7 +6,7 @@ ignoreErrors = ["error-remote-getjson"]
 # Override these settings with your own
 title = "Fadhil Dev Blog"
 languageCode = "en-us"
-baseURL = "https://fadhil-blog.dev/"
+baseURL = "https://www.fadhil-blog.dev/"
 copyright = "© Fadhil Yaacob {year}"
 
 # Add your Disqus shortname here.
