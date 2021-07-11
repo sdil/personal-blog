@@ -38,7 +38,7 @@ Working on **Content Delivery Network (CDN)** and **Video Streaming** products u
 - Setup on-prem Kubernetes clusters and implemented GitOps for our Django app to improve developers productivity
 - Setup data analytic pipelines using Syslog and BigQuery ingesting over 1GB of log data per day
 - Setup internal monitoring system for 400 of our edge servers globally using Grafana, InfluxDB and Netdata
-- Involved in an effort to update our codebase from Python 2.7 to Python 3.5
+- Involved in an effort to update our codebase from Python 2.7 to Python 3.5 (the whole process took over 2 years)
 - Appointed as **Technical Account Manager (TAM)** for 3 key CDN customers
 - Trained our support teams in Utah, USA and Lviv, Ukraine with CDN & OTT technologies
 - Mentored 2 new comers in the team
