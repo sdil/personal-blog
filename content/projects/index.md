@@ -12,7 +12,7 @@ This is the list of weekend & side projects I did for fun and learning.
 
 ### Pharmacy App - March til June 2021
 
-![Pharmacy app](foresight.gif)
+{{< youtube YxyBGbFa4hU >}}
 
 This is a freelance project I work with a team of 3 persons.
 
