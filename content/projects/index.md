@@ -24,7 +24,9 @@ This is a freelance project I work with a team of 3 persons.
 
 ![Tax app](tax-app.gif)
 
-This app born out of frustration filing my tax for the past 3 years. Surprisingly, many people are in the same boat. See my [Twitter thread here](https://twitter.com/sdil/status/1356596620515704832).
+This app born out of frustration filing my tax for the past 3 years. Surprisingly, many people are in the same boat.
+
+{{< tweet 1356596620515704832 >}}
 
 **Objective**: An app that helps commoners to manage tax better. Users can add/upload their income statement, their tax relief spendings and tax rebates to the system. We will calculate how much is their tax for that year and identify which tax relief categories are not fully utilized. The receipts/statements can be upload and stored for at least 7 years to comply to Malaysian's LHDN requirement.
 
@@ -33,8 +35,6 @@ This app born out of frustration filing my tax for the past 3 years. Surprisingl
 **Outcomes**: The project is finished and used by me, close friends and family as I do not have capacity to support and maintain for public audience. I might commercialize this product in the future.
 
 ### Raudhah Ilmi Dropship Centre - Nov 2020
-
-![Raudhah Ilmi](raudhahilmi.gif)
 
 {{< youtube bvLjkGCKz6U >}}
 
