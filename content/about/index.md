@@ -34,7 +34,7 @@ Working on **Content Delivery Network (CDN)** and **Video Streaming** products u
   - Build a VOD feature into our OTT platform in Django
   - Integrate an external billing system with our Django app
   - Rewrite our Django app frontend with a new internal UI Kit and jQuery
-  - Build a log collection and data analytic feature and successfully deployed to over 400 edge servers globally
+  - Build a log collection and data analytic feature using RabbitMQ & ELK stack and successfully deployed to over 400 edge servers globally
 - Setup on-prem Kubernetes clusters and implemented GitOps for our Django app to improve developers productivity
 - Setup data analytic pipelines using Syslog and BigQuery ingesting over 1GB of log data per day
 - Setup internal monitoring system for 400 of our edge servers globally using Grafana, InfluxDB and Netdata
