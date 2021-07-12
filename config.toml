@@ -13,7 +13,7 @@ copyright = "© Fadhil Yaacob {year}"
 # disqusShortname = ""
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
-# googleAnalytics = ""
+googleAnalytics = "UA-152873996-1"
 
 # Optional params
 [params]

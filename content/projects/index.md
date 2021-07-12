@@ -70,7 +70,7 @@ Visit the project [here](https://todo-app-phoenix-nuxtjs.vercel.app/todo). View 
 
 ### Chat App - Oct 2020
 
-![chat app](chat.gif)
+{{< youtube uP6deIy6umQ >}}
 
 Visit the project [here](https://chat.fadhil-blog.dev). View the source code [here](https://github.com/sdil/graphql-chat). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1306045334414479360).
 
