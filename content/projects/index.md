@@ -88,7 +88,7 @@ Visit the project & source code [here](https://github.com/sdil/hasura-firebase-a
 
 ### Voting Serverless - Aug 2020
 
-{[< youtube 03Xb8mBWXUc >}}
+{{< youtube 03Xb8mBWXUc >}}
 
 Visit the project [here](https://vote.fadhil-blog.dev). View the source code [here](https://github.com/sdil/voting-serverless-cdk). See me building this project in this [Twitter thread](https://twitter.com/sdil/status/1284816892301959168).
 
