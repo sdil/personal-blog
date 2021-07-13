@@ -22,7 +22,7 @@ This is a freelance project I work with a team of 3 persons.
 
 ### Tax App - Feb 2021
 
-![Tax app](tax-app.gif)
+{{< youtube pZBIkzt5OzU >}}
 
 This app born out of frustration filing my tax for the past 3 years. Surprisingly, many people are in the same boat.
 
