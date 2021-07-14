@@ -14,15 +14,24 @@ toc: false
 - 16GB RAM upgraded
 - 128GB SSD
 
-### Logitech MX Master 3
+### Oneplus Budz Earbud
 
-### Titan 3 Speaker
+### Logitech MX Master 3 Mouse
+
+### Logitech K120 Keyboard
+
+### Endesk Standing Desk
+
+### IKEA Markus Office Chair
 
 ## Software
 
 ### Ubuntu 19.04
 
+### Visual Code IDE
+
 ### Utilities app
 
 - [goto](https://github.com/iridakos/goto)
-
+- [pet](https://github.com/knqyf263/pet)
+- [tilix](https://github.com/gnunn1/tilix)
